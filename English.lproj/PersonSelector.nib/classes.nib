@@ -1,0 +1,39 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addNewButtonClicked = id; 
+                cancelButtonClicked = id; 
+                handlePeopleClicked = id; 
+                handlePeopleSingleClicked = id; 
+                quickSaleButtonClicked = id; 
+            }; 
+            CLASS = PersonSelector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addNewButton = NSButton; 
+                cancelButton = NSButton; 
+                peopleArrayController = NSArrayController; 
+                peopleSearchField = NSSearchField; 
+                peopleTableView = NSTableView; 
+                quickSaleButton = NSButton; 
+                selectedPersonTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

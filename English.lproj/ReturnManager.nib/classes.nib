@@ -1,0 +1,43 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {
+                cancelEditButtonClicked = id; 
+                datePickerClicked = id; 
+                deleteButtonClicked = id; 
+                handleProductsClicked = id; 
+                handleReturnsClicked = id; 
+                saveEditButtonClicked = id; 
+            }; 
+            CLASS = ReturnManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                amountTextField = NSTextField; 
+                cancelEditButton = NSButton; 
+                cookTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                deleteButton = NSButton; 
+                personTextField = NSTextField; 
+                productsArrayController = NSArrayController; 
+                productsTableView = NSTableView; 
+                reasonTextView = NSTextView; 
+                returnsArrayController = NSArrayController; 
+                returnsSearchField = NSSearchField; 
+                returnsTableView = NSTableView; 
+                saveEditButton = NSButton; 
+                subjectTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

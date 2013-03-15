@@ -1,0 +1,1879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F50339620A979F4900ECDD30 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F50339610A979F4900ECDD30 /* notes.txt */; };
+		F505FB7E0D2C6B4D005FE375 /* OWUClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FB7D0D2C6B4D005FE375 /* OWUClassDescription.m */; };
+		F505FB8A0D2C6E12005FE375 /* OWDClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FB890D2C6E12005FE375 /* OWDClassDescription.m */; };
+		F505FB960D2C6EA3005FE375 /* OWCClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FB950D2C6EA3005FE375 /* OWCClassDescription.m */; };
+		F505FBA10D2C75CB005FE375 /* BookClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FBA00D2C75CB005FE375 /* BookClassDescription.m */; };
+		F505FC160D2C7B11005FE375 /* CheckClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FC150D2C7B11005FE375 /* CheckClassDescription.m */; };
+		F505FC390D2C7D06005FE375 /* CompClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FC380D2C7D06005FE375 /* CompClassDescription.m */; };
+		F505FC480D2C7E80005FE375 /* DOCClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FC470D2C7E80005FE375 /* DOCClassDescription.m */; };
+		F505FC580D2C7F24005FE375 /* DonationClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FC570D2C7F24005FE375 /* DonationClassDescription.m */; };
+		F505FC690D2C7FE8005FE375 /* IKDClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FC680D2C7FE8005FE375 /* IKDClassDescription.m */; };
+		F505FC8C0D2C8127005FE375 /* InvoiceClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FC8B0D2C8127005FE375 /* InvoiceClassDescription.m */; };
+		F505FCA00D2C8291005FE375 /* ReturnClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FC9F0D2C8291005FE375 /* ReturnClassDescription.m */; };
+		F505FCB00D2C8301005FE375 /* ShopCreditClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FCAF0D2C8300005FE375 /* ShopCreditClassDescription.m */; };
+		F505FCBF0D2CB3CE005FE375 /* PBNClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FCBE0D2CB3CE005FE375 /* PBNClassDescription.m */; };
+		F505FCE70D2CB511005FE375 /* ProductClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FCE60D2CB511005FE375 /* ProductClassDescription.m */; };
+		F505FCED0D2CB614005FE375 /* BicycleClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FCEC0D2CB614005FE375 /* BicycleClassDescription.m */; };
+		F505FD240D2CB7FC005FE375 /* ProjectClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FD230D2CB7FC005FE375 /* ProjectClassDescription.m */; };
+		F505FD380D2CB991005FE375 /* MembershipClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FD370D2CB991005FE375 /* MembershipClassDescription.m */; };
+		F505FD4A0D2CBA6E005FE375 /* PCClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FD490D2CBA6E005FE375 /* PCClassDescription.m */; };
+		F505FD5E0D2CBB3A005FE375 /* CCClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FD5D0D2CBB3A005FE375 /* CCClassDescription.m */; };
+		F505FD640D2CBB9D005FE375 /* PersonClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F505FD630D2CBB9D005FE375 /* PersonClassDescription.m */; };
+		F5071D390B1FEB2C00F39669 /* BugReportWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5071D370B1FEB2C00F39669 /* BugReportWindow.nib */; };
+		F50812850B2BDD3300B95720 /* DebitsAndCredits.m in Sources */ = {isa = PBXBuildFile; fileRef = F50812840B2BDD3300B95720 /* DebitsAndCredits.m */; };
+		F50812D70B2BE8A000B95720 /* Checks.m in Sources */ = {isa = PBXBuildFile; fileRef = F50812D60B2BE8A000B95720 /* Checks.m */; };
+		F508134F0B2BFBA100B95720 /* Donations.m in Sources */ = {isa = PBXBuildFile; fileRef = F508134E0B2BFBA100B95720 /* Donations.m */; };
+		F50814240B2C095300B95720 /* Books.m in Sources */ = {isa = PBXBuildFile; fileRef = F50814230B2C095300B95720 /* Books.m */; };
+		F50815330B2CAD5E00B95720 /* FormPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = F50815320B2CAD5E00B95720 /* FormPrinter.m */; };
+		F50B6F8C0B7CEEF7008B9FD6 /* CashDonationArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B6F8B0B7CEEF7008B9FD6 /* CashDonationArchiver.m */; };
+		F50B70090B7CF9A8008B9FD6 /* PayInvoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B70080B7CF9A8008B9FD6 /* PayInvoiceController.m */; };
+		F50B70320B7D0D63008B9FD6 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B70310B7D0D63008B9FD6 /* PreferenceController.m */; };
+		F50B73260B7D799C008B9FD6 /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B73250B7D799C008B9FD6 /* Invoice.m */; };
+		F50B73980B7D89A7008B9FD6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B73970B7D89A7008B9FD6 /* Book.m */; };
+		F50B742B0B7D911A008B9FD6 /* DebitOrCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B742A0B7D911A008B9FD6 /* DebitOrCredit.m */; };
+		F50B74320B7D939F008B9FD6 /* ShopCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B74310B7D939F008B9FD6 /* ShopCredit.m */; };
+		F50C51FA0AE34F1E0012541C /* ProjectInfoWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F50C51F80AE34F1E0012541C /* ProjectInfoWindow.nib */; };
+		F50C51FF0AE34FED0012541C /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C51FE0AE34FED0012541C /* ProjectController.m */; settings = {COMPILER_FLAGS = "-fobjc-exceptions"; }; };
+		F50C80F00AD96F7500828B09 /* CreateProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C80EF0AD96F7500828B09 /* CreateProjectController.m */; };
+		F50E206C0B61D2880074B59F /* ClientInformation.nib in Resources */ = {isa = PBXBuildFile; fileRef = F50E206A0B61D2880074B59F /* ClientInformation.nib */; };
+		F50E20730B62D52A0074B59F /* ClientInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F50E20720B62D52A0074B59F /* ClientInfoManager.m */; };
+		F50F28360D2872C5002F1C12 /* DataExportManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F50F28340D2872C5002F1C12 /* DataExportManager.nib */; };
+		F50FBB960B90FBC10055153F /* ProjectSelector.nib in Resources */ = {isa = PBXBuildFile; fileRef = F50FBB940B90FBC10055153F /* ProjectSelector.nib */; };
+		F50FBB9F0B9102A20055153F /* ProjectSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FBB9E0B9102A20055153F /* ProjectSelector.m */; };
+		F50FBD6A0B9169C40055153F /* Comp.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FBD690B9169C40055153F /* Comp.m */; };
+		F50FBDD20B921A200055153F /* CreateAComp.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FBDD10B921A200055153F /* CreateAComp.m */; };
+		F50FBE280B9227B80055153F /* CompArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FBE270B9227B80055153F /* CompArchiver.m */; };
+		F50FBEB60B923F3E0055153F /* CompViewer.nib in Resources */ = {isa = PBXBuildFile; fileRef = F50FBEB40B923F3E0055153F /* CompViewer.nib */; };
+		F50FBEBC0B9242B90055153F /* CompManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FBEBB0B9242B90055153F /* CompManager.m */; };
+		F50FBEC80B9245BD0055153F /* CompViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FBEC70B9245BD0055153F /* CompViewer.m */; };
+		F513D1D90A7369BE00D98494 /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = F513D1D80A7369BE00D98494 /* Contacts.m */; settings = {COMPILER_FLAGS = "-fobjc-exceptions"; }; };
+		F513D2980A740FA600D98494 /* Invoices.m in Sources */ = {isa = PBXBuildFile; fileRef = F513D2970A740FA600D98494 /* Invoices.m */; };
+		F513D35D0A741CEB00D98494 /* CustomerManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F513D35B0A741CEB00D98494 /* CustomerManager.nib */; };
+		F513D3650A74202E00D98494 /* PeopleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F513D3640A74202E00D98494 /* PeopleController.m */; };
+		F513D4050A7432A100D98494 /* CustomeManagerLogin.nib in Resources */ = {isa = PBXBuildFile; fileRef = F513D4030A7432A100D98494 /* CustomeManagerLogin.nib */; };
+		F513D40C0A7432EC00D98494 /* PeopleManagerLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F513D40B0A7432EC00D98494 /* PeopleManagerLoginController.m */; };
+		F5181ED90B3794B6006AF5A3 /* CloseBook.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5181ED70B3794B6006AF5A3 /* CloseBook.nib */; };
+		F5181EE30B3796C6006AF5A3 /* CloseBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5181EE20B3796C6006AF5A3 /* CloseBookController.m */; };
+		F5181F0C0B38AA3D006AF5A3 /* CurrentJournal.m in Sources */ = {isa = PBXBuildFile; fileRef = F5181F0B0B38AA3D006AF5A3 /* CurrentJournal.m */; };
+		F51F65F10B17AE0F002C0A89 /* DictionarySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F65F00B17AE0F002C0A89 /* DictionarySingleton.m */; settings = {COMPILER_FLAGS = "-fobjc-exceptions"; }; };
+		F51F66050B17B165002C0A89 /* Credits.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F66040B17B165002C0A89 /* Credits.m */; };
+		F51F68C40B17E099002C0A89 /* FTSWAbstractSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F68C30B17E099002C0A89 /* FTSWAbstractSingleton.m */; settings = {COMPILER_FLAGS = "-fobjc-exceptions"; }; };
+		F51F713C0B1904B6002C0A89 /* DeletePersonPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = F51F713A0B1904B6002C0A89 /* DeletePersonPanel.nib */; };
+		F51F71410B1904D9002C0A89 /* DeletePersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F71400B1904D9002C0A89 /* DeletePersonController.m */; };
+		F51F715C0B190EE6002C0A89 /* Comments.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F715B0B190EE6002C0A89 /* Comments.m */; settings = {COMPILER_FLAGS = "-fobjc-exceptions"; }; };
+		F522440D0B2CC28400EEB2A9 /* OpenBook.nib in Resources */ = {isa = PBXBuildFile; fileRef = F522440C0B2CC28400EEB2A9 /* OpenBook.nib */; };
+		F52244120B2CC2D300EEB2A9 /* OpenBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52244110B2CC2D300EEB2A9 /* OpenBookController.m */; };
+		F52245310B2CEB6E00EEB2A9 /* BooksViewer.nib in Resources */ = {isa = PBXBuildFile; fileRef = F522452F0B2CEB6E00EEB2A9 /* BooksViewer.nib */; };
+		F52245470B2CF60C00EEB2A9 /* BooksViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = F52245460B2CF60C00EEB2A9 /* BooksViewer.m */; };
+		F52245ED0B2D110D00EEB2A9 /* BookDetails.nib in Resources */ = {isa = PBXBuildFile; fileRef = F52245EB0B2D110D00EEB2A9 /* BookDetails.nib */; };
+		F5254E210A6F452A0094F53C /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = F5254E200A6F452A0094F53C /* People.m */; settings = {COMPILER_FLAGS = "-fobjc-exceptions"; }; };
+		F5254EDD0A6FE0080094F53C /* AddCustomer.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5254ED60A6FE0080094F53C /* AddCustomer.tiff */; };
+		F5254EDE0A6FE0080094F53C /* CreateProject.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5254ED70A6FE0080094F53C /* CreateProject.tiff */; };
+		F5254EDF0A6FE0080094F53C /* CloseJournal.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5254ED80A6FE0080094F53C /* CloseJournal.tiff */; };
+		F5254EE00A6FE0080094F53C /* OpenJournal.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5254ED90A6FE0080094F53C /* OpenJournal.tiff */; };
+		F5254EE10A6FE0080094F53C /* UpdateProject.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5254EDA0A6FE0080094F53C /* UpdateProject.tiff */; };
+		F5254EE20A6FE0080094F53C /* CreateAdjustment.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5254EDB0A6FE0080094F53C /* CreateAdjustment.tiff */; };
+		F5254EE30A6FE0080094F53C /* SellSomething.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5254EDC0A6FE0080094F53C /* SellSomething.tiff */; };
+		F525527E0A718C440094F53C /* CreateCustomerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F525527D0A718C440094F53C /* CreateCustomerController.m */; };
+		F52553AE0A71A5190094F53C /* CreateCustomer.nib in Resources */ = {isa = PBXBuildFile; fileRef = F52553AC0A71A5190094F53C /* CreateCustomer.nib */; };
+		F525546B0A71B1770094F53C /* ProductManagerLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F525546A0A71B1770094F53C /* ProductManagerLoginController.m */; };
+		F52F2C350B0EC3640056CB84 /* ProductBrowserNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F2C340B0EC3640056CB84 /* ProductBrowserNode.m */; };
+		F52F2C4E0B0EC6AA0056CB84 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F2C4D0B0EC6AA0056CB84 /* ProductCategory.m */; };
+		F52F2D640B0FC3900056CB84 /* ProductCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F2D630B0FC3900056CB84 /* ProductCategories.m */; };
+		F52F2FD10B10140F0056CB84 /* ProductCategoriesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F2FD00B10140F0056CB84 /* ProductCategoriesDataSource.m */; };
+		F52F32380B10FBA40056CB84 /* bugs.txt in Resources */ = {isa = PBXBuildFile; fileRef = F52F32370B10FBA40056CB84 /* bugs.txt */; };
+		F52F34A60B113AFC0056CB84 /* BasicWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F34A50B113AFC0056CB84 /* BasicWindowController.m */; };
+		F5465AE30B519E8900E51A29 /* AcceptInKindDonation.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5465AE10B519E8900E51A29 /* AcceptInKindDonation.nib */; };
+		F5465B170B51B20800E51A29 /* AcceptInKindDonation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5465B160B51B20800E51A29 /* AcceptInKindDonation.m */; };
+		F5517CB20B4C2BF100B763F5 /* BookViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5517CB10B4C2BF100B763F5 /* BookViewer.m */; };
+		F556D8CC0B4FB97C003F8A30 /* CompManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F556D8CA0B4FB97C003F8A30 /* CompManager.nib */; };
+		F56B87080A71B84B00BF7F1C /* ProductManagerLogin.nib in Resources */ = {isa = PBXBuildFile; fileRef = F56B87060A71B84B00BF7F1C /* ProductManagerLogin.nib */; };
+		F56B87340A71C2A800BF7F1C /* PersonInfo.nib in Resources */ = {isa = PBXBuildFile; fileRef = F56B87320A71C2A800BF7F1C /* PersonInfo.nib */; };
+		F56B87770A72BA7C00BF7F1C /* Projects.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B87760A72BA7C00BF7F1C /* Projects.m */; };
+		F575363F0AD896C800086B79 /* ProgressiveWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F575363E0AD896C800086B79 /* ProgressiveWindowController.m */; };
+		F575364B0AD8971B00086B79 /* add-project-notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F575364A0AD8971B00086B79 /* add-project-notes.txt */; };
+		F57536500AD89EE200086B79 /* CreateProjectWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F575364E0AD89EE200086B79 /* CreateProjectWindow.nib */; };
+		F57890C30B7FCE4200E938CE /* InvoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F57890C20B7FCE4200E938CE /* InvoiceManager.m */; };
+		F57891130B7FE14400E938CE /* ViewInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = F57891120B7FE14400E938CE /* ViewInvoice.m */; };
+		F581D4BF1304F2840099765A /* MerchantOSExport.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4BE1304F2840099765A /* MerchantOSExport.m */; };
+		F581D4EE1305403C0099765A /* config-for-debug-and-release-block.txt in Resources */ = {isa = PBXBuildFile; fileRef = F581D4DF1305403B0099765A /* config-for-debug-and-release-block.txt */; };
+		F581D4EF1305403C0099765A /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4E11305403B0099765A /* DDASLLogger.m */; };
+		F581D4F01305403C0099765A /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4E31305403B0099765A /* DDFileLogger.m */; };
+		F581D4F11305403C0099765A /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4E51305403B0099765A /* DDLog.m */; };
+		F581D4F21305403C0099765A /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4E71305403B0099765A /* DDTTYLogger.m */; };
+		F581D4F31305403C0099765A /* LjsDefaultFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4E91305403B0099765A /* LjsDefaultFormatter.m */; };
+		F581D4F41305403C0099765A /* LjsTailingFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4EB1305403B0099765A /* LjsTailingFileManager.m */; };
+		F581D4F51305403C0099765A /* main.m-for-cocoa-app.txt in Resources */ = {isa = PBXBuildFile; fileRef = F581D4ED1305403C0099765A /* main.m-for-cocoa-app.txt */; };
+		F581D4FA130540740099765A /* Reporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D4F9130540740099765A /* Reporter.m */; };
+		F581D5681305C6BF0099765A /* LjsObjectExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D5671305C6BF0099765A /* LjsObjectExporter.m */; };
+		F581D56B1305D13D0099765A /* ProblemPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D56A1305D13D0099765A /* ProblemPerson.m */; };
+		F581D5B71305DE6A0099765A /* merchos-customer-export-notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F581D5B61305DE6A0099765A /* merchos-customer-export-notes.rtf */; };
+		F581D65B13060F3E0099765A /* LjsStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F581D65A13060F3E0099765A /* LjsStringUtils.m */; };
+		F585F4100B1A505E000BBD75 /* InvoiceManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F585F40E0B1A505E000BBD75 /* InvoiceManager.nib */; };
+		F585F4B20B1A7C7B000BBD75 /* InvoiceArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F585F4B10B1A7C7B000BBD75 /* InvoiceArchiver.m */; };
+		F585F4C70B1A8269000BBD75 /* ExpirationDateMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F585F4C60B1A8269000BBD75 /* ExpirationDateMaker.m */; };
+		F58DACC80B506760008A9F24 /* ReturnHandler.nib in Resources */ = {isa = PBXBuildFile; fileRef = F58DACC60B506760008A9F24 /* ReturnHandler.nib */; };
+		F58DACD30B507A43008A9F24 /* Returns.m in Sources */ = {isa = PBXBuildFile; fileRef = F58DACD20B507A43008A9F24 /* Returns.m */; };
+		F58DACE00B507AA3008A9F24 /* Return.m in Sources */ = {isa = PBXBuildFile; fileRef = F58DACDF0B507AA3008A9F24 /* Return.m */; };
+		F58DAD120B5092B9008A9F24 /* ReturnHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F58DAD110B5092B9008A9F24 /* ReturnHandler.m */; };
+		F58DAEBB0B51721A008A9F24 /* ReturnManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F58DAEB90B51721A008A9F24 /* ReturnManager.nib */; };
+		F58DAEC00B517A11008A9F24 /* ReturnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F58DAEBF0B517A11008A9F24 /* ReturnManager.m */; };
+		F591D5CB0A6C150A006F5844 /* ProductManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F591D5C90A6C150A006F5844 /* ProductManager.nib */; };
+		F591D5D80A6C1B0D006F5844 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = F591D5D70A6C1B0D006F5844 /* ProductController.m */; };
+		F591D5DD0A6C1DE2006F5844 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = F591D5DC0A6C1DE2006F5844 /* Products.m */; };
+		F59767260B75454D00F98EAF /* CreateInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = F59767250B75454D00F98EAF /* CreateInvoice.m */; };
+		F59B326A0B63EFA800CF82D3 /* CreateCorrespondence.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59B32680B63EFA800CF82D3 /* CreateCorrespondence.nib */; };
+		F59B326F0B63F1B400CF82D3 /* CreateCorrespondence.m in Sources */ = {isa = PBXBuildFile; fileRef = F59B326E0B63F1B400CF82D3 /* CreateCorrespondence.m */; };
+		F59B32D70B64021000CF82D3 /* CreateCredit.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59B32D50B64021000CF82D3 /* CreateCredit.nib */; };
+		F59B32DC0B64038300CF82D3 /* CreateCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = F59B32DB0B64038300CF82D3 /* CreateCredit.m */; };
+		F59C9A4F0B86A17900B02476 /* CashDonationController.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59C9A4D0B86A17900B02476 /* CashDonationController.nib */; };
+		F59C9A540B86A73C00B02476 /* ViewInKindDonation.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59C9A520B86A73C00B02476 /* ViewInKindDonation.nib */; };
+		F59C9A570B86A94900B02476 /* ViewInKindDonation.m in Sources */ = {isa = PBXBuildFile; fileRef = F59C9A560B86A94900B02476 /* ViewInKindDonation.m */; };
+		F59C9A680B86B26900B02476 /* InKindDonationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F59C9A670B86B26900B02476 /* InKindDonationManager.m */; };
+		F59C9A870B86B83D00B02476 /* ViewCashDonation.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59C9A850B86B83D00B02476 /* ViewCashDonation.nib */; };
+		F59C9A8A0B86B99A00B02476 /* ViewCashDonation.m in Sources */ = {isa = PBXBuildFile; fileRef = F59C9A890B86B99A00B02476 /* ViewCashDonation.m */; };
+		F59C9A930B86BE6E00B02476 /* CashDonationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F59C9A920B86BE6E00B02476 /* CashDonationManager.m */; };
+		F5A1093F0B51C137000A5068 /* InKindDonationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A1093E0B51C137000A5068 /* InKindDonationItem.m */; };
+		F5A10AA60B51EBE2000A5068 /* InKindDonationArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A10AA50B51EBE2000A5068 /* InKindDonationArchiver.m */; };
+		F5A10C0D0B52180A000A5068 /* InKindDonationManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A10C0B0B52180A000A5068 /* InKindDonationManager.nib */; };
+		F5A10C960B5220E6000A5068 /* InKindDonations.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A10C950B5220E6000A5068 /* InKindDonations.m */; };
+		F5A2DC270A462ED0004D0E87 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC210A462ED0004D0E87 /* AppController.m */; settings = {COMPILER_FLAGS = "-fobjc-exceptions"; }; };
+		F5A2DC280A462ED0004D0E87 /* Bicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC230A462ED0004D0E87 /* Bicycle.m */; };
+		F5A2DC290A462ED0004D0E87 /* Check.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC250A462ED0004D0E87 /* Check.m */; };
+		F5A2DC340A462EE9004D0E87 /* comment-lines-template.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5A2DC2A0A462EE9004D0E87 /* comment-lines-template.txt */; };
+		F5A2DC350A462EE9004D0E87 /* comments-scratch.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5A2DC2B0A462EE9004D0E87 /* comments-scratch.txt */; };
+		F5A2DC370A462EE9004D0E87 /* CustomerContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC2F0A462EE9004D0E87 /* CustomerContact.m */; };
+		F5A2DC420A462F15004D0E87 /* Membership.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC3F0A462F15004D0E87 /* Membership.m */; };
+		F5A2DC430A462F15004D0E87 /* MembershipInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC410A462F15004D0E87 /* MembershipInformation.m */; };
+		F5A2DC550A462F25004D0E87 /* ObjectWithComment.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC450A462F25004D0E87 /* ObjectWithComment.m */; };
+		F5A2DC560A462F25004D0E87 /* ObjectWithDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC470A462F25004D0E87 /* ObjectWithDate.m */; };
+		F5A2DC570A462F25004D0E87 /* ObjectWithUid.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC490A462F25004D0E87 /* ObjectWithUid.m */; };
+		F5A2DC5A0A462F25004D0E87 /* preferences.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5A2DC4E0A462F25004D0E87 /* preferences.txt */; };
+		F5A2DC5B0A462F25004D0E87 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC500A462F25004D0E87 /* Product.m */; };
+		F5A2DC5C0A462F25004D0E87 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC520A462F25004D0E87 /* Project.m */; };
+		F5A2DC5D0A462F25004D0E87 /* UidGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DC540A462F25004D0E87 /* UidGenerator.m */; };
+		F5A2DC5F0A462F41004D0E87 /* no-exit-pos.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5A2DC5E0A462F41004D0E87 /* no-exit-pos.icns */; };
+		F5A2DC690A463048004D0E87 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A2DC670A463048004D0E87 /* Preferences.nib */; };
+		F5A549C30B0EB1B200FC4A21 /* Invoice.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A549C10B0EB1B200FC4A21 /* Invoice.nib */; };
+		F5A54A020B0EBD1700FC4A21 /* ViewInvoice.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A54A000B0EBD1700FC4A21 /* ViewInvoice.nib */; };
+		F5C42E770B39D32A001D6930 /* BookArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C42E760B39D32A001D6930 /* BookArchiver.m */; };
+		F5C4FBE70A6D435400E229FA /* ProductInfoWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5C4FBE50A6D435400E229FA /* ProductInfoWindow.nib */; };
+		F5CA26420B8BC29300F8ADEE /* PersonSelector.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5CA26400B8BC29300F8ADEE /* PersonSelector.nib */; };
+		F5CA264F0B8BC81700F8ADEE /* PersonSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA264E0B8BC81700F8ADEE /* PersonSelector.m */; };
+		F5DCC50F0B222EA200B42D60 /* BugReportController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DCC50E0B222EA200B42D60 /* BugReportController.m */; };
+		F5DCC5410B2356B500B42D60 /* empty-image.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5DCC5400B2356B500B42D60 /* empty-image.tif */; };
+		F5DCC54A0B235A4200B42D60 /* bug.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5DCC5490B235A4200B42D60 /* bug.tiff */; };
+		F5E014610B1C381700AFE647 /* Memberships.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E014600B1C381700AFE647 /* Memberships.m */; };
+		F5E0161A0B1D346C00AFE647 /* PayInvoice.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5E016180B1D346C00AFE647 /* PayInvoice.nib */; };
+		F5EFA2C40AF3FFFF00533AF2 /* ProjectManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5EFA2C20AF3FFFF00533AF2 /* ProjectManager.nib */; };
+		F5EFA2DF0AF40B7900533AF2 /* ProjectInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EFA2DE0AF40B7900533AF2 /* ProjectInformationController.m */; };
+		F5EFAD540AFE90BC00533AF2 /* CustomerContactManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5EFAD520AFE90BC00533AF2 /* CustomerContactManager.nib */; };
+		F5EFAD590AFE90F500533AF2 /* CustomerContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EFAD580AFE90F500533AF2 /* CustomerContactController.m */; };
+		F5F02B3C0B4D884500D7F31F /* CreditManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F02B3A0B4D884500D7F31F /* CreditManager.nib */; };
+		F5F02B4C0B4D909200D7F31F /* CreditManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F02B4B0B4D909200D7F31F /* CreditManager.m */; };
+		F5F02D360B4EF6FB00D7F31F /* MembershipManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F02D340B4EF6FB00D7F31F /* MembershipManager.nib */; };
+		F5F02D3D0B4EFEF900D7F31F /* MembershipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F02D3C0B4EFEF900D7F31F /* MembershipManager.m */; };
+		F5F0302C0B4FA17B00D7F31F /* Comps.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F0302B0B4FA17B00D7F31F /* Comps.m */; };
+		F5F030370B4FA30100D7F31F /* CompAProduct.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F030350B4FA30100D7F31F /* CompAProduct.nib */; };
+		F5F380280B7B085E00BFA74B /* AcceptCashDonation.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F380260B7B085E00BFA74B /* AcceptCashDonation.nib */; };
+		F5F3802B0B7B0BE100BFA74B /* AcceptCashDonation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F3802A0B7B0BE100BFA74B /* AcceptCashDonation.m */; };
+		F5F3807D0B7BAE7200BFA74B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F3807C0B7BAE7200BFA74B /* Person.m */; };
+		F5F3809C0B7BD86D00BFA74B /* Donation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F3809B0B7BD86D00BFA74B /* Donation.m */; };
+		F5F380B10B7BE25500BFA74B /* InKindDonation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F380B00B7BE25500BFA74B /* InKindDonation.m */; };
+		F5F7A83F0B6686900078BFE1 /* PersonEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7A83E0B6686900078BFE1 /* PersonEditor.m */; };
+		F5F7A8C50B6693D70078BFE1 /* PersonEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F7A8C30B6693D70078BFE1 /* PersonEditor.nib */; };
+		F5F7AA080B66C43B0078BFE1 /* SelectProductsForProject.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F7AA060B66C43B0078BFE1 /* SelectProductsForProject.nib */; };
+		F5F7AA0F0B66C6B40078BFE1 /* ProductSelectorForProject.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7AA0E0B66C6B40078BFE1 /* ProductSelectorForProject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* BicycleKitchenPOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BicycleKitchenPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50339610A979F4900ECDD30 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		F505FB7C0D2C6B4D005FE375 /* OWUClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OWUClassDescription.h; sourceTree = "<group>"; };
+		F505FB7D0D2C6B4D005FE375 /* OWUClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OWUClassDescription.m; sourceTree = "<group>"; };
+		F505FB880D2C6E12005FE375 /* OWDClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OWDClassDescription.h; sourceTree = "<group>"; };
+		F505FB890D2C6E12005FE375 /* OWDClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OWDClassDescription.m; sourceTree = "<group>"; };
+		F505FB940D2C6EA3005FE375 /* OWCClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OWCClassDescription.h; sourceTree = "<group>"; };
+		F505FB950D2C6EA3005FE375 /* OWCClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OWCClassDescription.m; sourceTree = "<group>"; };
+		F505FB9F0D2C75CB005FE375 /* BookClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BookClassDescription.h; sourceTree = "<group>"; };
+		F505FBA00D2C75CB005FE375 /* BookClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BookClassDescription.m; sourceTree = "<group>"; };
+		F505FC140D2C7B11005FE375 /* CheckClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CheckClassDescription.h; sourceTree = "<group>"; };
+		F505FC150D2C7B11005FE375 /* CheckClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CheckClassDescription.m; sourceTree = "<group>"; };
+		F505FC370D2C7D06005FE375 /* CompClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CompClassDescription.h; sourceTree = "<group>"; };
+		F505FC380D2C7D06005FE375 /* CompClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CompClassDescription.m; sourceTree = "<group>"; };
+		F505FC460D2C7E80005FE375 /* DOCClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DOCClassDescription.h; sourceTree = "<group>"; };
+		F505FC470D2C7E80005FE375 /* DOCClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DOCClassDescription.m; sourceTree = "<group>"; };
+		F505FC560D2C7F24005FE375 /* DonationClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DonationClassDescription.h; sourceTree = "<group>"; };
+		F505FC570D2C7F24005FE375 /* DonationClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DonationClassDescription.m; sourceTree = "<group>"; };
+		F505FC670D2C7FE8005FE375 /* IKDClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IKDClassDescription.h; sourceTree = "<group>"; };
+		F505FC680D2C7FE8005FE375 /* IKDClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = IKDClassDescription.m; sourceTree = "<group>"; };
+		F505FC8A0D2C8127005FE375 /* InvoiceClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InvoiceClassDescription.h; sourceTree = "<group>"; };
+		F505FC8B0D2C8127005FE375 /* InvoiceClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InvoiceClassDescription.m; sourceTree = "<group>"; };
+		F505FC9E0D2C8291005FE375 /* ReturnClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ReturnClassDescription.h; sourceTree = "<group>"; };
+		F505FC9F0D2C8291005FE375 /* ReturnClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ReturnClassDescription.m; sourceTree = "<group>"; };
+		F505FCAE0D2C8300005FE375 /* ShopCreditClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ShopCreditClassDescription.h; sourceTree = "<group>"; };
+		F505FCAF0D2C8300005FE375 /* ShopCreditClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ShopCreditClassDescription.m; sourceTree = "<group>"; };
+		F505FCBD0D2CB3CE005FE375 /* PBNClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PBNClassDescription.h; sourceTree = "<group>"; };
+		F505FCBE0D2CB3CE005FE375 /* PBNClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PBNClassDescription.m; sourceTree = "<group>"; };
+		F505FCE50D2CB511005FE375 /* ProductClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ProductClassDescription.h; sourceTree = "<group>"; };
+		F505FCE60D2CB511005FE375 /* ProductClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ProductClassDescription.m; sourceTree = "<group>"; };
+		F505FCEB0D2CB614005FE375 /* BicycleClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BicycleClassDescription.h; sourceTree = "<group>"; };
+		F505FCEC0D2CB614005FE375 /* BicycleClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BicycleClassDescription.m; sourceTree = "<group>"; };
+		F505FD220D2CB7FC005FE375 /* ProjectClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ProjectClassDescription.h; sourceTree = "<group>"; };
+		F505FD230D2CB7FC005FE375 /* ProjectClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ProjectClassDescription.m; sourceTree = "<group>"; };
+		F505FD360D2CB991005FE375 /* MembershipClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MembershipClassDescription.h; sourceTree = "<group>"; };
+		F505FD370D2CB991005FE375 /* MembershipClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MembershipClassDescription.m; sourceTree = "<group>"; };
+		F505FD480D2CBA6E005FE375 /* PCClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PCClassDescription.h; sourceTree = "<group>"; };
+		F505FD490D2CBA6E005FE375 /* PCClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PCClassDescription.m; sourceTree = "<group>"; };
+		F505FD5C0D2CBB3A005FE375 /* CCClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CCClassDescription.h; sourceTree = "<group>"; };
+		F505FD5D0D2CBB3A005FE375 /* CCClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CCClassDescription.m; sourceTree = "<group>"; };
+		F505FD620D2CBB9D005FE375 /* PersonClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PersonClassDescription.h; sourceTree = "<group>"; };
+		F505FD630D2CBB9D005FE375 /* PersonClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PersonClassDescription.m; sourceTree = "<group>"; };
+		F5071D380B1FEB2C00F39669 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BugReportWindow.nib; sourceTree = "<group>"; };
+		F50812830B2BDD3300B95720 /* DebitsAndCredits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebitsAndCredits.h; sourceTree = "<group>"; };
+		F50812840B2BDD3300B95720 /* DebitsAndCredits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebitsAndCredits.m; sourceTree = "<group>"; };
+		F50812D50B2BE8A000B95720 /* Checks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checks.h; sourceTree = "<group>"; };
+		F50812D60B2BE8A000B95720 /* Checks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checks.m; sourceTree = "<group>"; };
+		F508134E0B2BFBA100B95720 /* Donations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Donations.m; sourceTree = "<group>"; };
+		F50813600B2BFCA000B95720 /* Donations.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Donations.h; sourceTree = "<group>"; };
+		F50814220B2C095300B95720 /* Books.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Books.h; sourceTree = "<group>"; };
+		F50814230B2C095300B95720 /* Books.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Books.m; sourceTree = "<group>"; };
+		F50815310B2CAD5E00B95720 /* FormPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormPrinter.h; sourceTree = "<group>"; };
+		F50815320B2CAD5E00B95720 /* FormPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormPrinter.m; sourceTree = "<group>"; };
+		F50B6F8A0B7CEEF7008B9FD6 /* CashDonationArchiver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CashDonationArchiver.h; sourceTree = "<group>"; };
+		F50B6F8B0B7CEEF7008B9FD6 /* CashDonationArchiver.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CashDonationArchiver.m; sourceTree = "<group>"; };
+		F50B70070B7CF9A8008B9FD6 /* PayInvoiceController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PayInvoiceController.h; sourceTree = "<group>"; };
+		F50B70080B7CF9A8008B9FD6 /* PayInvoiceController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PayInvoiceController.m; sourceTree = "<group>"; };
+		F50B70300B7D0D63008B9FD6 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		F50B70310B7D0D63008B9FD6 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		F50B73240B7D799C008B9FD6 /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
+		F50B73250B7D799C008B9FD6 /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
+		F50B73960B7D89A7008B9FD6 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		F50B73970B7D89A7008B9FD6 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		F50B74290B7D911A008B9FD6 /* DebitOrCredit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DebitOrCredit.h; sourceTree = "<group>"; };
+		F50B742A0B7D911A008B9FD6 /* DebitOrCredit.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DebitOrCredit.m; sourceTree = "<group>"; };
+		F50B74300B7D939F008B9FD6 /* ShopCredit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ShopCredit.h; sourceTree = "<group>"; };
+		F50B74310B7D939F008B9FD6 /* ShopCredit.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ShopCredit.m; sourceTree = "<group>"; };
+		F50C51F90AE34F1E0012541C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ProjectInfoWindow.nib; sourceTree = "<group>"; };
+		F50C51FD0AE34FED0012541C /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectController.h; sourceTree = "<group>"; };
+		F50C51FE0AE34FED0012541C /* ProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectController.m; sourceTree = "<group>"; };
+		F50C80EE0AD96F7500828B09 /* CreateProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateProjectController.h; sourceTree = "<group>"; };
+		F50C80EF0AD96F7500828B09 /* CreateProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateProjectController.m; sourceTree = "<group>"; };
+		F50E206B0B61D2880074B59F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ClientInformation.nib; sourceTree = "<group>"; };
+		F50E20710B62D52A0074B59F /* ClientInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientInfoManager.h; sourceTree = "<group>"; };
+		F50E20720B62D52A0074B59F /* ClientInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientInfoManager.m; sourceTree = "<group>"; };
+		F50F28350D2872C5002F1C12 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DataExportManager.nib; sourceTree = "<group>"; };
+		F50FBB950B90FBC10055153F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ProjectSelector.nib; sourceTree = "<group>"; };
+		F50FBB9D0B9102A20055153F /* ProjectSelector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ProjectSelector.h; sourceTree = "<group>"; };
+		F50FBB9E0B9102A20055153F /* ProjectSelector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ProjectSelector.m; sourceTree = "<group>"; };
+		F50FBD680B9169C40055153F /* Comp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Comp.h; sourceTree = "<group>"; };
+		F50FBD690B9169C40055153F /* Comp.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Comp.m; sourceTree = "<group>"; };
+		F50FBDD00B921A200055153F /* CreateAComp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CreateAComp.h; sourceTree = "<group>"; };
+		F50FBDD10B921A200055153F /* CreateAComp.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CreateAComp.m; sourceTree = "<group>"; };
+		F50FBE260B9227B80055153F /* CompArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompArchiver.h; sourceTree = "<group>"; };
+		F50FBE270B9227B80055153F /* CompArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompArchiver.m; sourceTree = "<group>"; };
+		F50FBEB50B923F3E0055153F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CompViewer.nib; sourceTree = "<group>"; };
+		F50FBEBA0B9242B90055153F /* CompManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CompManager.h; sourceTree = "<group>"; };
+		F50FBEBB0B9242B90055153F /* CompManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CompManager.m; sourceTree = "<group>"; };
+		F50FBEC60B9245BD0055153F /* CompViewer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CompViewer.h; sourceTree = "<group>"; };
+		F50FBEC70B9245BD0055153F /* CompViewer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CompViewer.m; sourceTree = "<group>"; };
+		F513D1D70A7369BE00D98494 /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		F513D1D80A7369BE00D98494 /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		F513D2960A740FA600D98494 /* Invoices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoices.h; sourceTree = "<group>"; };
+		F513D2970A740FA600D98494 /* Invoices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoices.m; sourceTree = "<group>"; };
+		F513D35C0A741CEB00D98494 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomerManager.nib; sourceTree = "<group>"; };
+		F513D3630A74202E00D98494 /* PeopleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleController.h; sourceTree = "<group>"; };
+		F513D3640A74202E00D98494 /* PeopleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleController.m; sourceTree = "<group>"; };
+		F513D4040A7432A100D98494 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomeManagerLogin.nib; sourceTree = "<group>"; };
+		F513D40A0A7432EC00D98494 /* PeopleManagerLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleManagerLoginController.h; sourceTree = "<group>"; };
+		F513D40B0A7432EC00D98494 /* PeopleManagerLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleManagerLoginController.m; sourceTree = "<group>"; };
+		F5181ED80B3794B6006AF5A3 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CloseBook.nib; sourceTree = "<group>"; };
+		F5181EE10B3796C6006AF5A3 /* CloseBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseBookController.h; sourceTree = "<group>"; };
+		F5181EE20B3796C6006AF5A3 /* CloseBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseBookController.m; sourceTree = "<group>"; };
+		F5181F0A0B38AA3D006AF5A3 /* CurrentJournal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentJournal.h; sourceTree = "<group>"; };
+		F5181F0B0B38AA3D006AF5A3 /* CurrentJournal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentJournal.m; sourceTree = "<group>"; };
+		F51F65EF0B17AE0F002C0A89 /* DictionarySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionarySingleton.h; sourceTree = "<group>"; };
+		F51F65F00B17AE0F002C0A89 /* DictionarySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionarySingleton.m; sourceTree = "<group>"; };
+		F51F66030B17B165002C0A89 /* Credits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credits.h; sourceTree = "<group>"; };
+		F51F66040B17B165002C0A89 /* Credits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credits.m; sourceTree = "<group>"; };
+		F51F68C20B17E099002C0A89 /* FTSWAbstractSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSWAbstractSingleton.h; sourceTree = "<group>"; };
+		F51F68C30B17E099002C0A89 /* FTSWAbstractSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSWAbstractSingleton.m; sourceTree = "<group>"; };
+		F51F713B0B1904B6002C0A89 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DeletePersonPanel.nib; sourceTree = "<group>"; };
+		F51F713F0B1904D9002C0A89 /* DeletePersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeletePersonController.h; sourceTree = "<group>"; };
+		F51F71400B1904D9002C0A89 /* DeletePersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeletePersonController.m; sourceTree = "<group>"; };
+		F51F715A0B190EE6002C0A89 /* Comments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comments.h; sourceTree = "<group>"; };
+		F51F715B0B190EE6002C0A89 /* Comments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comments.m; sourceTree = "<group>"; };
+		F522440C0B2CC28400EEB2A9 /* OpenBook.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = OpenBook.nib; sourceTree = "<group>"; };
+		F52244100B2CC2D300EEB2A9 /* OpenBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenBookController.h; sourceTree = "<group>"; };
+		F52244110B2CC2D300EEB2A9 /* OpenBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenBookController.m; sourceTree = "<group>"; };
+		F52245300B2CEB6E00EEB2A9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BooksViewer.nib; sourceTree = "<group>"; };
+		F52245450B2CF60C00EEB2A9 /* BooksViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksViewer.h; sourceTree = "<group>"; };
+		F52245460B2CF60C00EEB2A9 /* BooksViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksViewer.m; sourceTree = "<group>"; };
+		F52245EC0B2D110D00EEB2A9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BookDetails.nib; sourceTree = "<group>"; };
+		F5254E1F0A6F452A0094F53C /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		F5254E200A6F452A0094F53C /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		F5254ED60A6FE0080094F53C /* AddCustomer.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = AddCustomer.tiff; sourceTree = "<group>"; };
+		F5254ED70A6FE0080094F53C /* CreateProject.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = CreateProject.tiff; sourceTree = "<group>"; };
+		F5254ED80A6FE0080094F53C /* CloseJournal.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = CloseJournal.tiff; sourceTree = "<group>"; };
+		F5254ED90A6FE0080094F53C /* OpenJournal.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = OpenJournal.tiff; sourceTree = "<group>"; };
+		F5254EDA0A6FE0080094F53C /* UpdateProject.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = UpdateProject.tiff; sourceTree = "<group>"; };
+		F5254EDB0A6FE0080094F53C /* CreateAdjustment.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = CreateAdjustment.tiff; sourceTree = "<group>"; };
+		F5254EDC0A6FE0080094F53C /* SellSomething.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SellSomething.tiff; sourceTree = "<group>"; };
+		F525527C0A718C440094F53C /* CreateCustomerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCustomerController.h; sourceTree = "<group>"; };
+		F525527D0A718C440094F53C /* CreateCustomerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCustomerController.m; sourceTree = "<group>"; };
+		F52553AD0A71A5190094F53C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CreateCustomer.nib; sourceTree = "<group>"; };
+		F52554690A71B1770094F53C /* ProductManagerLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductManagerLoginController.h; sourceTree = "<group>"; };
+		F525546A0A71B1770094F53C /* ProductManagerLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductManagerLoginController.m; sourceTree = "<group>"; };
+		F52F2C330B0EC3640056CB84 /* ProductBrowserNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductBrowserNode.h; sourceTree = "<group>"; };
+		F52F2C340B0EC3640056CB84 /* ProductBrowserNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductBrowserNode.m; sourceTree = "<group>"; };
+		F52F2C4C0B0EC6AA0056CB84 /* ProductCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCategory.h; sourceTree = "<group>"; };
+		F52F2C4D0B0EC6AA0056CB84 /* ProductCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategory.m; sourceTree = "<group>"; };
+		F52F2D620B0FC3900056CB84 /* ProductCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCategories.h; sourceTree = "<group>"; };
+		F52F2D630B0FC3900056CB84 /* ProductCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategories.m; sourceTree = "<group>"; };
+		F52F2FCF0B10140F0056CB84 /* ProductCategoriesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCategoriesDataSource.h; sourceTree = "<group>"; };
+		F52F2FD00B10140F0056CB84 /* ProductCategoriesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategoriesDataSource.m; sourceTree = "<group>"; };
+		F52F32370B10FBA40056CB84 /* bugs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bugs.txt; sourceTree = "<group>"; };
+		F52F34A40B113AFC0056CB84 /* BasicWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicWindowController.h; sourceTree = "<group>"; };
+		F52F34A50B113AFC0056CB84 /* BasicWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicWindowController.m; sourceTree = "<group>"; };
+		F53B662E1304A20500B4D646 /* CustomerSample.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = CustomerSample.xls; sourceTree = "<group>"; };
+		F5465AE20B519E8900E51A29 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AcceptInKindDonation.nib; sourceTree = "<group>"; };
+		F5465B150B51B20800E51A29 /* AcceptInKindDonation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceptInKindDonation.h; sourceTree = "<group>"; };
+		F5465B160B51B20800E51A29 /* AcceptInKindDonation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceptInKindDonation.m; sourceTree = "<group>"; };
+		F5517CB00B4C2BF100B763F5 /* BookViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewer.h; sourceTree = "<group>"; };
+		F5517CB10B4C2BF100B763F5 /* BookViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewer.m; sourceTree = "<group>"; };
+		F556D8CB0B4FB97C003F8A30 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CompManager.nib; sourceTree = "<group>"; };
+		F56B87070A71B84B00BF7F1C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ProductManagerLogin.nib; sourceTree = "<group>"; };
+		F56B87330A71C2A800BF7F1C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PersonInfo.nib; sourceTree = "<group>"; };
+		F56B87750A72BA7C00BF7F1C /* Projects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projects.h; sourceTree = "<group>"; };
+		F56B87760A72BA7C00BF7F1C /* Projects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projects.m; sourceTree = "<group>"; };
+		F575363D0AD896C800086B79 /* ProgressiveWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ProgressiveWindowController.h; sourceTree = "<group>"; };
+		F575363E0AD896C800086B79 /* ProgressiveWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ProgressiveWindowController.m; sourceTree = "<group>"; };
+		F575364A0AD8971B00086B79 /* add-project-notes.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "add-project-notes.txt"; sourceTree = "<group>"; };
+		F575364F0AD89EE200086B79 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CreateProjectWindow.nib; sourceTree = "<group>"; };
+		F57890C10B7FCE4200E938CE /* InvoiceManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InvoiceManager.h; sourceTree = "<group>"; };
+		F57890C20B7FCE4200E938CE /* InvoiceManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InvoiceManager.m; sourceTree = "<group>"; };
+		F57891110B7FE14400E938CE /* ViewInvoice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ViewInvoice.h; sourceTree = "<group>"; };
+		F57891120B7FE14400E938CE /* ViewInvoice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ViewInvoice.m; sourceTree = "<group>"; };
+		F581D4BD1304F2840099765A /* MerchantOSExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantOSExport.h; sourceTree = "<group>"; };
+		F581D4BE1304F2840099765A /* MerchantOSExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantOSExport.m; sourceTree = "<group>"; };
+		F581D4DF1305403B0099765A /* config-for-debug-and-release-block.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "config-for-debug-and-release-block.txt"; sourceTree = "<group>"; };
+		F581D4E01305403B0099765A /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		F581D4E11305403B0099765A /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		F581D4E21305403B0099765A /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		F581D4E31305403B0099765A /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		F581D4E41305403B0099765A /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		F581D4E51305403B0099765A /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		F581D4E61305403B0099765A /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		F581D4E71305403B0099765A /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		F581D4E81305403B0099765A /* LjsDefaultFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LjsDefaultFormatter.h; sourceTree = "<group>"; };
+		F581D4E91305403B0099765A /* LjsDefaultFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LjsDefaultFormatter.m; sourceTree = "<group>"; };
+		F581D4EA1305403B0099765A /* LjsTailingFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LjsTailingFileManager.h; sourceTree = "<group>"; };
+		F581D4EB1305403B0099765A /* LjsTailingFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LjsTailingFileManager.m; sourceTree = "<group>"; };
+		F581D4EC1305403B0099765A /* Lumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lumberjack.h; sourceTree = "<group>"; };
+		F581D4ED1305403C0099765A /* main.m-for-cocoa-app.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "main.m-for-cocoa-app.txt"; sourceTree = "<group>"; };
+		F581D4F8130540740099765A /* Reporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reporter.h; sourceTree = "<group>"; };
+		F581D4F9130540740099765A /* Reporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reporter.m; sourceTree = "<group>"; };
+		F581D5661305C6BF0099765A /* LjsObjectExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LjsObjectExporter.h; path = "../../xcode-project-template/LjsCocoaClasses/Utilities/LjsObjectExporter.h"; sourceTree = SOURCE_ROOT; };
+		F581D5671305C6BF0099765A /* LjsObjectExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LjsObjectExporter.m; path = "../../xcode-project-template/LjsCocoaClasses/Utilities/LjsObjectExporter.m"; sourceTree = SOURCE_ROOT; };
+		F581D5691305D13D0099765A /* ProblemPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemPerson.h; sourceTree = "<group>"; };
+		F581D56A1305D13D0099765A /* ProblemPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemPerson.m; sourceTree = "<group>"; };
+		F581D5B61305DE6A0099765A /* merchos-customer-export-notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "merchos-customer-export-notes.rtf"; sourceTree = "<group>"; };
+		F581D65913060F3E0099765A /* LjsStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LjsStringUtils.h; path = "../../xcode-project-template/LjsCocoaClasses/Utilities/LjsStringUtils.h"; sourceTree = SOURCE_ROOT; };
+		F581D65A13060F3E0099765A /* LjsStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LjsStringUtils.m; path = "../../xcode-project-template/LjsCocoaClasses/Utilities/LjsStringUtils.m"; sourceTree = SOURCE_ROOT; };
+		F585F40F0B1A505E000BBD75 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/InvoiceManager.nib; sourceTree = "<group>"; };
+		F585F4B00B1A7C7B000BBD75 /* InvoiceArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceArchiver.h; sourceTree = "<group>"; };
+		F585F4B10B1A7C7B000BBD75 /* InvoiceArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceArchiver.m; sourceTree = "<group>"; };
+		F585F4C50B1A8269000BBD75 /* ExpirationDateMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpirationDateMaker.h; sourceTree = "<group>"; };
+		F585F4C60B1A8269000BBD75 /* ExpirationDateMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpirationDateMaker.m; sourceTree = "<group>"; };
+		F58DACC70B506760008A9F24 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ReturnHandler.nib; sourceTree = "<group>"; };
+		F58DACD10B507A43008A9F24 /* Returns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Returns.h; sourceTree = "<group>"; };
+		F58DACD20B507A43008A9F24 /* Returns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Returns.m; sourceTree = "<group>"; };
+		F58DACDE0B507AA3008A9F24 /* Return.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Return.h; sourceTree = "<group>"; };
+		F58DACDF0B507AA3008A9F24 /* Return.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Return.m; sourceTree = "<group>"; };
+		F58DAD100B5092B9008A9F24 /* ReturnHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnHandler.h; sourceTree = "<group>"; };
+		F58DAD110B5092B9008A9F24 /* ReturnHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnHandler.m; sourceTree = "<group>"; };
+		F58DAEBA0B51721A008A9F24 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ReturnManager.nib; sourceTree = "<group>"; };
+		F58DAEBE0B517A11008A9F24 /* ReturnManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnManager.h; sourceTree = "<group>"; };
+		F58DAEBF0B517A11008A9F24 /* ReturnManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnManager.m; sourceTree = "<group>"; };
+		F591D5420A6AD7A6006F5844 /* BicycleKitchenPOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BicycleKitchenPOS_Prefix.pch; sourceTree = "<group>"; };
+		F591D5CA0A6C150A006F5844 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ProductManager.nib; sourceTree = "<group>"; };
+		F591D5D60A6C1B0D006F5844 /* ProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductController.h; sourceTree = "<group>"; };
+		F591D5D70A6C1B0D006F5844 /* ProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductController.m; sourceTree = "<group>"; };
+		F591D5DB0A6C1DE2006F5844 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		F591D5DC0A6C1DE2006F5844 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		F59767240B75454D00F98EAF /* CreateInvoice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CreateInvoice.h; sourceTree = "<group>"; };
+		F59767250B75454D00F98EAF /* CreateInvoice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CreateInvoice.m; sourceTree = "<group>"; };
+		F59B32690B63EFA800CF82D3 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CreateCorrespondence.nib; sourceTree = "<group>"; };
+		F59B326D0B63F1B400CF82D3 /* CreateCorrespondence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCorrespondence.h; sourceTree = "<group>"; };
+		F59B326E0B63F1B400CF82D3 /* CreateCorrespondence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCorrespondence.m; sourceTree = "<group>"; };
+		F59B32D60B64021000CF82D3 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CreateCredit.nib; sourceTree = "<group>"; };
+		F59B32DA0B64038300CF82D3 /* CreateCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCredit.h; sourceTree = "<group>"; };
+		F59B32DB0B64038300CF82D3 /* CreateCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCredit.m; sourceTree = "<group>"; };
+		F59C9A4E0B86A17900B02476 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CashDonationController.nib; sourceTree = "<group>"; };
+		F59C9A530B86A73C00B02476 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ViewInKindDonation.nib; sourceTree = "<group>"; };
+		F59C9A550B86A94900B02476 /* ViewInKindDonation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ViewInKindDonation.h; sourceTree = "<group>"; };
+		F59C9A560B86A94900B02476 /* ViewInKindDonation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ViewInKindDonation.m; sourceTree = "<group>"; };
+		F59C9A660B86B26900B02476 /* InKindDonationManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InKindDonationManager.h; sourceTree = "<group>"; };
+		F59C9A670B86B26900B02476 /* InKindDonationManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InKindDonationManager.m; sourceTree = "<group>"; };
+		F59C9A860B86B83D00B02476 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ViewCashDonation.nib; sourceTree = "<group>"; };
+		F59C9A880B86B99A00B02476 /* ViewCashDonation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ViewCashDonation.h; sourceTree = "<group>"; };
+		F59C9A890B86B99A00B02476 /* ViewCashDonation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ViewCashDonation.m; sourceTree = "<group>"; };
+		F59C9A910B86BE6E00B02476 /* CashDonationManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CashDonationManager.h; sourceTree = "<group>"; };
+		F59C9A920B86BE6E00B02476 /* CashDonationManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CashDonationManager.m; sourceTree = "<group>"; };
+		F5A1093D0B51C137000A5068 /* InKindDonationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InKindDonationItem.h; sourceTree = "<group>"; };
+		F5A1093E0B51C137000A5068 /* InKindDonationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InKindDonationItem.m; sourceTree = "<group>"; };
+		F5A10AA40B51EBE2000A5068 /* InKindDonationArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InKindDonationArchiver.h; sourceTree = "<group>"; };
+		F5A10AA50B51EBE2000A5068 /* InKindDonationArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InKindDonationArchiver.m; sourceTree = "<group>"; };
+		F5A10C0C0B52180A000A5068 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/InKindDonationManager.nib; sourceTree = "<group>"; };
+		F5A10C940B5220E6000A5068 /* InKindDonations.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InKindDonations.h; sourceTree = "<group>"; };
+		F5A10C950B5220E6000A5068 /* InKindDonations.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InKindDonations.m; sourceTree = "<group>"; };
+		F5A2DC200A462ED0004D0E87 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		F5A2DC210A462ED0004D0E87 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		F5A2DC220A462ED0004D0E87 /* Bicycle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Bicycle.h; sourceTree = "<group>"; };
+		F5A2DC230A462ED0004D0E87 /* Bicycle.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Bicycle.m; sourceTree = "<group>"; };
+		F5A2DC240A462ED0004D0E87 /* Check.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Check.h; sourceTree = "<group>"; };
+		F5A2DC250A462ED0004D0E87 /* Check.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Check.m; sourceTree = "<group>"; };
+		F5A2DC2A0A462EE9004D0E87 /* comment-lines-template.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "comment-lines-template.txt"; sourceTree = "<group>"; };
+		F5A2DC2B0A462EE9004D0E87 /* comments-scratch.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "comments-scratch.txt"; sourceTree = "<group>"; };
+		F5A2DC2E0A462EE9004D0E87 /* CustomerContact.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CustomerContact.h; sourceTree = "<group>"; };
+		F5A2DC2F0A462EE9004D0E87 /* CustomerContact.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CustomerContact.m; sourceTree = "<group>"; };
+		F5A2DC3E0A462F15004D0E87 /* Membership.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Membership.h; sourceTree = "<group>"; };
+		F5A2DC3F0A462F15004D0E87 /* Membership.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Membership.m; sourceTree = "<group>"; };
+		F5A2DC400A462F15004D0E87 /* MembershipInformation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MembershipInformation.h; sourceTree = "<group>"; };
+		F5A2DC410A462F15004D0E87 /* MembershipInformation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MembershipInformation.m; sourceTree = "<group>"; };
+		F5A2DC440A462F25004D0E87 /* ObjectWithComment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ObjectWithComment.h; sourceTree = "<group>"; };
+		F5A2DC450A462F25004D0E87 /* ObjectWithComment.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ObjectWithComment.m; sourceTree = "<group>"; };
+		F5A2DC460A462F25004D0E87 /* ObjectWithDate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ObjectWithDate.h; sourceTree = "<group>"; };
+		F5A2DC470A462F25004D0E87 /* ObjectWithDate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ObjectWithDate.m; sourceTree = "<group>"; };
+		F5A2DC480A462F25004D0E87 /* ObjectWithUid.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ObjectWithUid.h; sourceTree = "<group>"; };
+		F5A2DC490A462F25004D0E87 /* ObjectWithUid.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ObjectWithUid.m; sourceTree = "<group>"; };
+		F5A2DC4E0A462F25004D0E87 /* preferences.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = preferences.txt; sourceTree = "<group>"; };
+		F5A2DC4F0A462F25004D0E87 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		F5A2DC500A462F25004D0E87 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		F5A2DC510A462F25004D0E87 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		F5A2DC520A462F25004D0E87 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		F5A2DC530A462F25004D0E87 /* UidGenerator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UidGenerator.h; sourceTree = "<group>"; };
+		F5A2DC540A462F25004D0E87 /* UidGenerator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UidGenerator.m; sourceTree = "<group>"; };
+		F5A2DC5E0A462F41004D0E87 /* no-exit-pos.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "no-exit-pos.icns"; sourceTree = "<group>"; };
+		F5A2DC680A463048004D0E87 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		F5A549C20B0EB1B200FC4A21 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Invoice.nib; sourceTree = "<group>"; };
+		F5A54A010B0EBD1700FC4A21 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ViewInvoice.nib; sourceTree = "<group>"; };
+		F5C42E750B39D32A001D6930 /* BookArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookArchiver.h; sourceTree = "<group>"; };
+		F5C42E760B39D32A001D6930 /* BookArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookArchiver.m; sourceTree = "<group>"; };
+		F5C4FBE60A6D435400E229FA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ProductInfoWindow.nib; sourceTree = "<group>"; };
+		F5CA26410B8BC29300F8ADEE /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PersonSelector.nib; sourceTree = "<group>"; };
+		F5CA264D0B8BC81700F8ADEE /* PersonSelector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PersonSelector.h; sourceTree = "<group>"; };
+		F5CA264E0B8BC81700F8ADEE /* PersonSelector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PersonSelector.m; sourceTree = "<group>"; };
+		F5DCC50D0B222EA200B42D60 /* BugReportController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BugReportController.h; sourceTree = "<group>"; };
+		F5DCC50E0B222EA200B42D60 /* BugReportController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BugReportController.m; sourceTree = "<group>"; };
+		F5DCC5400B2356B500B42D60 /* empty-image.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "empty-image.tif"; sourceTree = "<group>"; };
+		F5DCC5490B235A4200B42D60 /* bug.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = bug.tiff; sourceTree = "<group>"; };
+		F5E0145F0B1C381700AFE647 /* Memberships.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memberships.h; sourceTree = "<group>"; };
+		F5E014600B1C381700AFE647 /* Memberships.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memberships.m; sourceTree = "<group>"; };
+		F5E016190B1D346C00AFE647 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PayInvoice.nib; sourceTree = "<group>"; };
+		F5EFA2C30AF3FFFF00533AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ProjectManager.nib; sourceTree = "<group>"; };
+		F5EFA2DD0AF40B7900533AF2 /* ProjectInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectInformationController.h; sourceTree = "<group>"; };
+		F5EFA2DE0AF40B7900533AF2 /* ProjectInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectInformationController.m; sourceTree = "<group>"; };
+		F5EFAD530AFE90BC00533AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomerContactManager.nib; sourceTree = "<group>"; };
+		F5EFAD570AFE90F500533AF2 /* CustomerContactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerContactController.h; sourceTree = "<group>"; };
+		F5EFAD580AFE90F500533AF2 /* CustomerContactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerContactController.m; sourceTree = "<group>"; };
+		F5F02B3B0B4D884500D7F31F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CreditManager.nib; sourceTree = "<group>"; };
+		F5F02B4A0B4D909200D7F31F /* CreditManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditManager.h; sourceTree = "<group>"; };
+		F5F02B4B0B4D909200D7F31F /* CreditManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditManager.m; sourceTree = "<group>"; };
+		F5F02D350B4EF6FB00D7F31F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MembershipManager.nib; sourceTree = "<group>"; };
+		F5F02D3B0B4EFEF900D7F31F /* MembershipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembershipManager.h; sourceTree = "<group>"; };
+		F5F02D3C0B4EFEF900D7F31F /* MembershipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembershipManager.m; sourceTree = "<group>"; };
+		F5F0302A0B4FA17B00D7F31F /* Comps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comps.h; sourceTree = "<group>"; };
+		F5F0302B0B4FA17B00D7F31F /* Comps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comps.m; sourceTree = "<group>"; };
+		F5F030360B4FA30100D7F31F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CompAProduct.nib; sourceTree = "<group>"; };
+		F5F380270B7B085E00BFA74B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AcceptCashDonation.nib; sourceTree = "<group>"; };
+		F5F380290B7B0BE100BFA74B /* AcceptCashDonation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AcceptCashDonation.h; sourceTree = "<group>"; };
+		F5F3802A0B7B0BE100BFA74B /* AcceptCashDonation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AcceptCashDonation.m; sourceTree = "<group>"; };
+		F5F3807B0B7BAE7200BFA74B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F5F3807C0B7BAE7200BFA74B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F5F3809A0B7BD86D00BFA74B /* Donation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Donation.h; sourceTree = "<group>"; };
+		F5F3809B0B7BD86D00BFA74B /* Donation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Donation.m; sourceTree = "<group>"; };
+		F5F380AF0B7BE25500BFA74B /* InKindDonation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InKindDonation.h; sourceTree = "<group>"; };
+		F5F380B00B7BE25500BFA74B /* InKindDonation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InKindDonation.m; sourceTree = "<group>"; };
+		F5F7A83D0B6686900078BFE1 /* PersonEditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PersonEditor.h; sourceTree = "<group>"; };
+		F5F7A83E0B6686900078BFE1 /* PersonEditor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PersonEditor.m; sourceTree = "<group>"; };
+		F5F7A8C40B6693D70078BFE1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PersonEditor.nib; sourceTree = "<group>"; };
+		F5F7AA070B66C43B0078BFE1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SelectProductsForProject.nib; sourceTree = "<group>"; };
+		F5F7AA0D0B66C6B40078BFE1 /* ProductSelectorForProject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ProductSelectorForProject.h; sourceTree = "<group>"; };
+		F5F7AA0E0B66C6B40078BFE1 /* ProductSelectorForProject.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ProductSelectorForProject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* BicycleKitchenPOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BicycleKitchenPOS */ = {
+			isa = PBXGroup;
+			children = (
+				F581D4DD1305403B0099765A /* Logging */,
+				F53B662D1304A20500B4D646 /* merchantos-export */,
+				F575364A0AD8971B00086B79 /* add-project-notes.txt */,
+				F52F32370B10FBA40056CB84 /* bugs.txt */,
+				F50339610A979F4900ECDD30 /* notes.txt */,
+				F5A2DC2A0A462EE9004D0E87 /* comment-lines-template.txt */,
+				F5A2DC2B0A462EE9004D0E87 /* comments-scratch.txt */,
+				F5A2DC4E0A462F25004D0E87 /* preferences.txt */,
+				F5254E150A6F42C90094F53C /* ObjectWithClasses */,
+				F5254E170A6F431C0094F53C /* FinacialObjects */,
+				F5254E190A6F43D60094F53C /* Membership */,
+				F5254E1A0A6F44250094F53C /* Person */,
+				F5254E180A6F43900094F53C /* Products */,
+				F52F2FCC0B1013C10056CB84 /* ProductCategories */,
+				F5254E1C0A6F44940094F53C /* Controllers */,
+				F508140E0B2C06EB00B95720 /* Bug */,
+				F56799EB0D29D14B00B4A051 /* ClassDescriptions */,
+				F513D40D0A74330200D98494 /* Login Controllers */,
+				F5254E1B0A6F447C0094F53C /* Singletons */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F522440C0B2CC28400EEB2A9 /* OpenBook.nib */,
+			);
+			name = BicycleKitchenPOS;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F591D5420A6AD7A6006F5844 /* BicycleKitchenPOS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5254ED60A6FE0080094F53C /* AddCustomer.tiff */,
+				F5DCC5490B235A4200B42D60 /* bug.tiff */,
+				F5254ED70A6FE0080094F53C /* CreateProject.tiff */,
+				F5254ED80A6FE0080094F53C /* CloseJournal.tiff */,
+				F5DCC5400B2356B500B42D60 /* empty-image.tif */,
+				F5254ED90A6FE0080094F53C /* OpenJournal.tiff */,
+				F5254EDA0A6FE0080094F53C /* UpdateProject.tiff */,
+				F5254EDB0A6FE0080094F53C /* CreateAdjustment.tiff */,
+				F5254EDC0A6FE0080094F53C /* SellSomething.tiff */,
+				F5A2DC5E0A462F41004D0E87 /* no-exit-pos.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				F5A549C10B0EB1B200FC4A21 /* Invoice.nib */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				F5A2DC670A463048004D0E87 /* Preferences.nib */,
+				F591D5C90A6C150A006F5844 /* ProductManager.nib */,
+				F5C4FBE50A6D435400E229FA /* ProductInfoWindow.nib */,
+				F52553AC0A71A5190094F53C /* CreateCustomer.nib */,
+				F513D35B0A741CEB00D98494 /* CustomerManager.nib */,
+				F56B87060A71B84B00BF7F1C /* ProductManagerLogin.nib */,
+				F56B87320A71C2A800BF7F1C /* PersonInfo.nib */,
+				F513D4030A7432A100D98494 /* CustomeManagerLogin.nib */,
+				F575364E0AD89EE200086B79 /* CreateProjectWindow.nib */,
+				F50C51F80AE34F1E0012541C /* ProjectInfoWindow.nib */,
+				F5EFA2C20AF3FFFF00533AF2 /* ProjectManager.nib */,
+				F5EFAD520AFE90BC00533AF2 /* CustomerContactManager.nib */,
+				F5A54A000B0EBD1700FC4A21 /* ViewInvoice.nib */,
+				F51F713A0B1904B6002C0A89 /* DeletePersonPanel.nib */,
+				F585F40E0B1A505E000BBD75 /* InvoiceManager.nib */,
+				F5E016180B1D346C00AFE647 /* PayInvoice.nib */,
+				F5071D370B1FEB2C00F39669 /* BugReportWindow.nib */,
+				F522452F0B2CEB6E00EEB2A9 /* BooksViewer.nib */,
+				F52245EB0B2D110D00EEB2A9 /* BookDetails.nib */,
+				F5181ED70B3794B6006AF5A3 /* CloseBook.nib */,
+				F5F02B3A0B4D884500D7F31F /* CreditManager.nib */,
+				F5F02D340B4EF6FB00D7F31F /* MembershipManager.nib */,
+				F5F030350B4FA30100D7F31F /* CompAProduct.nib */,
+				F556D8CA0B4FB97C003F8A30 /* CompManager.nib */,
+				F58DACC60B506760008A9F24 /* ReturnHandler.nib */,
+				F58DAEB90B51721A008A9F24 /* ReturnManager.nib */,
+				F5465AE10B519E8900E51A29 /* AcceptInKindDonation.nib */,
+				F5A10C0B0B52180A000A5068 /* InKindDonationManager.nib */,
+				F50E206A0B61D2880074B59F /* ClientInformation.nib */,
+				F59B32680B63EFA800CF82D3 /* CreateCorrespondence.nib */,
+				F59B32D50B64021000CF82D3 /* CreateCredit.nib */,
+				F5F7A8C30B6693D70078BFE1 /* PersonEditor.nib */,
+				F5F7AA060B66C43B0078BFE1 /* SelectProductsForProject.nib */,
+				F5F380260B7B085E00BFA74B /* AcceptCashDonation.nib */,
+				F59C9A4D0B86A17900B02476 /* CashDonationController.nib */,
+				F59C9A520B86A73C00B02476 /* ViewInKindDonation.nib */,
+				F59C9A850B86B83D00B02476 /* ViewCashDonation.nib */,
+				F5CA26400B8BC29300F8ADEE /* PersonSelector.nib */,
+				F50FBB940B90FBC10055153F /* ProjectSelector.nib */,
+				F50FBEB40B923F3E0055153F /* CompViewer.nib */,
+				F50F28340D2872C5002F1C12 /* DataExportManager.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F508140E0B2C06EB00B95720 /* Bug */ = {
+			isa = PBXGroup;
+			children = (
+				F5DCC50D0B222EA200B42D60 /* BugReportController.h */,
+				F5DCC50E0B222EA200B42D60 /* BugReportController.m */,
+			);
+			name = Bug;
+			sourceTree = "<group>";
+		};
+		F513D40D0A74330200D98494 /* Login Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F513D40A0A7432EC00D98494 /* PeopleManagerLoginController.h */,
+				F513D40B0A7432EC00D98494 /* PeopleManagerLoginController.m */,
+				F52554690A71B1770094F53C /* ProductManagerLoginController.h */,
+				F525546A0A71B1770094F53C /* ProductManagerLoginController.m */,
+			);
+			name = "Login Controllers";
+			sourceTree = "<group>";
+		};
+		F5181F100B38AAB0006AF5A3 /* CurrentJournal */ = {
+			isa = PBXGroup;
+			children = (
+				F5181F0A0B38AA3D006AF5A3 /* CurrentJournal.h */,
+				F5181F0B0B38AA3D006AF5A3 /* CurrentJournal.m */,
+			);
+			name = CurrentJournal;
+			sourceTree = "<group>";
+		};
+		F5254E150A6F42C90094F53C /* ObjectWithClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2DC440A462F25004D0E87 /* ObjectWithComment.h */,
+				F5A2DC450A462F25004D0E87 /* ObjectWithComment.m */,
+				F5A2DC460A462F25004D0E87 /* ObjectWithDate.h */,
+				F5A2DC470A462F25004D0E87 /* ObjectWithDate.m */,
+				F5A2DC480A462F25004D0E87 /* ObjectWithUid.h */,
+				F5A2DC490A462F25004D0E87 /* ObjectWithUid.m */,
+			);
+			name = ObjectWithClasses;
+			sourceTree = "<group>";
+		};
+		F5254E160A6F42F70094F53C /* UidGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2DC530A462F25004D0E87 /* UidGenerator.h */,
+				F5A2DC540A462F25004D0E87 /* UidGenerator.m */,
+			);
+			name = UidGenerator;
+			sourceTree = "<group>";
+		};
+		F5254E170A6F431C0094F53C /* FinacialObjects */ = {
+			isa = PBXGroup;
+			children = (
+				F50B73960B7D89A7008B9FD6 /* Book.h */,
+				F50B73970B7D89A7008B9FD6 /* Book.m */,
+				F5A2DC240A462ED0004D0E87 /* Check.h */,
+				F5A2DC250A462ED0004D0E87 /* Check.m */,
+				F50FBD680B9169C40055153F /* Comp.h */,
+				F50FBD690B9169C40055153F /* Comp.m */,
+				F50B74290B7D911A008B9FD6 /* DebitOrCredit.h */,
+				F50B742A0B7D911A008B9FD6 /* DebitOrCredit.m */,
+				F5F3809A0B7BD86D00BFA74B /* Donation.h */,
+				F5F3809B0B7BD86D00BFA74B /* Donation.m */,
+				F5F380AF0B7BE25500BFA74B /* InKindDonation.h */,
+				F5F380B00B7BE25500BFA74B /* InKindDonation.m */,
+				F5A1093D0B51C137000A5068 /* InKindDonationItem.h */,
+				F5A1093E0B51C137000A5068 /* InKindDonationItem.m */,
+				F50B73240B7D799C008B9FD6 /* Invoice.h */,
+				F50B73250B7D799C008B9FD6 /* Invoice.m */,
+				F58DACDE0B507AA3008A9F24 /* Return.h */,
+				F58DACDF0B507AA3008A9F24 /* Return.m */,
+				F50B74300B7D939F008B9FD6 /* ShopCredit.h */,
+				F50B74310B7D939F008B9FD6 /* ShopCredit.m */,
+			);
+			name = FinacialObjects;
+			sourceTree = "<group>";
+		};
+		F5254E180A6F43900094F53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2DC220A462ED0004D0E87 /* Bicycle.h */,
+				F5A2DC230A462ED0004D0E87 /* Bicycle.m */,
+				F5A2DC510A462F25004D0E87 /* Project.h */,
+				F5A2DC520A462F25004D0E87 /* Project.m */,
+				F5A2DC4F0A462F25004D0E87 /* Product.h */,
+				F5A2DC500A462F25004D0E87 /* Product.m */,
+				F52F2C330B0EC3640056CB84 /* ProductBrowserNode.h */,
+				F52F2C340B0EC3640056CB84 /* ProductBrowserNode.m */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5254E190A6F43D60094F53C /* Membership */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2DC3E0A462F15004D0E87 /* Membership.h */,
+				F5A2DC3F0A462F15004D0E87 /* Membership.m */,
+				F5A2DC400A462F15004D0E87 /* MembershipInformation.h */,
+				F5A2DC410A462F15004D0E87 /* MembershipInformation.m */,
+			);
+			name = Membership;
+			sourceTree = "<group>";
+		};
+		F5254E1A0A6F44250094F53C /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2DC2E0A462EE9004D0E87 /* CustomerContact.h */,
+				F5A2DC2F0A462EE9004D0E87 /* CustomerContact.m */,
+				F5F3807B0B7BAE7200BFA74B /* Person.h */,
+				F5F3807C0B7BAE7200BFA74B /* Person.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		F5254E1B0A6F447C0094F53C /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				F585F4C20B1A820F000BBD75 /* Superclasses */,
+				F5181F100B38AAB0006AF5A3 /* CurrentJournal */,
+				F585F4E20B1A84E8000BBD75 /* ExpirationDate */,
+				F50814220B2C095300B95720 /* Books.h */,
+				F50814230B2C095300B95720 /* Books.m */,
+				F50812D50B2BE8A000B95720 /* Checks.h */,
+				F50812D60B2BE8A000B95720 /* Checks.m */,
+				F51F715A0B190EE6002C0A89 /* Comments.h */,
+				F51F715B0B190EE6002C0A89 /* Comments.m */,
+				F5F0302A0B4FA17B00D7F31F /* Comps.h */,
+				F5F0302B0B4FA17B00D7F31F /* Comps.m */,
+				F513D1D70A7369BE00D98494 /* Contacts.h */,
+				F513D1D80A7369BE00D98494 /* Contacts.m */,
+				F51F66030B17B165002C0A89 /* Credits.h */,
+				F51F66040B17B165002C0A89 /* Credits.m */,
+				F50812830B2BDD3300B95720 /* DebitsAndCredits.h */,
+				F50812840B2BDD3300B95720 /* DebitsAndCredits.m */,
+				F50813600B2BFCA000B95720 /* Donations.h */,
+				F508134E0B2BFBA100B95720 /* Donations.m */,
+				F513D2960A740FA600D98494 /* Invoices.h */,
+				F513D2970A740FA600D98494 /* Invoices.m */,
+				F5A10C940B5220E6000A5068 /* InKindDonations.h */,
+				F5A10C950B5220E6000A5068 /* InKindDonations.m */,
+				F5E0145F0B1C381700AFE647 /* Memberships.h */,
+				F5E014600B1C381700AFE647 /* Memberships.m */,
+				F5254E1F0A6F452A0094F53C /* People.h */,
+				F5254E200A6F452A0094F53C /* People.m */,
+				F591D5DB0A6C1DE2006F5844 /* Products.h */,
+				F591D5DC0A6C1DE2006F5844 /* Products.m */,
+				F52F2D620B0FC3900056CB84 /* ProductCategories.h */,
+				F52F2D630B0FC3900056CB84 /* ProductCategories.m */,
+				F56B87750A72BA7C00BF7F1C /* Projects.h */,
+				F56B87760A72BA7C00BF7F1C /* Projects.m */,
+				F58DACD10B507A43008A9F24 /* Returns.h */,
+				F58DACD20B507A43008A9F24 /* Returns.m */,
+				F585F4AC0B1A7BE7000BBD75 /* Printing */,
+				F5254E160A6F42F70094F53C /* UidGenerator */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		F5254E1C0A6F44940094F53C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2DC200A462ED0004D0E87 /* AppController.h */,
+				F5A2DC210A462ED0004D0E87 /* AppController.m */,
+				F52F34940B1138070056CB84 /* Finacial */,
+				F52F34910B1137790056CB84 /* Customer */,
+				F56B86F10A71B32400BF7F1C /* PreferenceController */,
+				F52F34920B1137C20056CB84 /* Product */,
+				F52F34900B11375E0056CB84 /* Project */,
+				F52F34930B1137E00056CB84 /* Superclasses */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F52F2FCC0B1013C10056CB84 /* ProductCategories */ = {
+			isa = PBXGroup;
+			children = (
+				F52F2C4C0B0EC6AA0056CB84 /* ProductCategory.h */,
+				F52F2C4D0B0EC6AA0056CB84 /* ProductCategory.m */,
+				F52F2FCF0B10140F0056CB84 /* ProductCategoriesDataSource.h */,
+				F52F2FD00B10140F0056CB84 /* ProductCategoriesDataSource.m */,
+			);
+			name = ProductCategories;
+			sourceTree = "<group>";
+		};
+		F52F34900B11375E0056CB84 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F50C80EE0AD96F7500828B09 /* CreateProjectController.h */,
+				F50C80EF0AD96F7500828B09 /* CreateProjectController.m */,
+				F50C51FD0AE34FED0012541C /* ProjectController.h */,
+				F50C51FE0AE34FED0012541C /* ProjectController.m */,
+				F5EFA2DD0AF40B7900533AF2 /* ProjectInformationController.h */,
+				F5EFA2DE0AF40B7900533AF2 /* ProjectInformationController.m */,
+				F5F7AA0D0B66C6B40078BFE1 /* ProductSelectorForProject.h */,
+				F5F7AA0E0B66C6B40078BFE1 /* ProductSelectorForProject.m */,
+				F50FBB9D0B9102A20055153F /* ProjectSelector.h */,
+				F50FBB9E0B9102A20055153F /* ProjectSelector.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		F52F34910B1137790056CB84 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				F50E20710B62D52A0074B59F /* ClientInfoManager.h */,
+				F50E20720B62D52A0074B59F /* ClientInfoManager.m */,
+				F59B326D0B63F1B400CF82D3 /* CreateCorrespondence.h */,
+				F59B326E0B63F1B400CF82D3 /* CreateCorrespondence.m */,
+				F525527C0A718C440094F53C /* CreateCustomerController.h */,
+				F525527D0A718C440094F53C /* CreateCustomerController.m */,
+				F5EFAD570AFE90F500533AF2 /* CustomerContactController.h */,
+				F5EFAD580AFE90F500533AF2 /* CustomerContactController.m */,
+				F51F713F0B1904D9002C0A89 /* DeletePersonController.h */,
+				F51F71400B1904D9002C0A89 /* DeletePersonController.m */,
+				F513D3630A74202E00D98494 /* PeopleController.h */,
+				F513D3640A74202E00D98494 /* PeopleController.m */,
+				F5F7A83D0B6686900078BFE1 /* PersonEditor.h */,
+				F5F7A83E0B6686900078BFE1 /* PersonEditor.m */,
+				F5CA264D0B8BC81700F8ADEE /* PersonSelector.h */,
+				F5CA264E0B8BC81700F8ADEE /* PersonSelector.m */,
+				F5F02D3B0B4EFEF900D7F31F /* MembershipManager.h */,
+				F5F02D3C0B4EFEF900D7F31F /* MembershipManager.m */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		F52F34920B1137C20056CB84 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F591D5D60A6C1B0D006F5844 /* ProductController.h */,
+				F591D5D70A6C1B0D006F5844 /* ProductController.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		F52F34930B1137E00056CB84 /* Superclasses */ = {
+			isa = PBXGroup;
+			children = (
+				F52F34A40B113AFC0056CB84 /* BasicWindowController.h */,
+				F52F34A50B113AFC0056CB84 /* BasicWindowController.m */,
+				F575363D0AD896C800086B79 /* ProgressiveWindowController.h */,
+				F575363E0AD896C800086B79 /* ProgressiveWindowController.m */,
+			);
+			name = Superclasses;
+			sourceTree = "<group>";
+		};
+		F52F34940B1138070056CB84 /* Finacial */ = {
+			isa = PBXGroup;
+			children = (
+				F5517CB40B4C2C0000B763F5 /* Books */,
+				F59C99ED0B8695C600B02476 /* ComplimentaryTransactions */,
+				F59C99EC0B86952500B02476 /* Donations */,
+				F5517CB50B4C2C2500B763F5 /* Invoices */,
+				F59C99EE0B8695ED00B02476 /* Returns */,
+				F59C99EF0B86961400B02476 /* ShopCredit */,
+			);
+			name = Finacial;
+			sourceTree = "<group>";
+		};
+		F53B662D1304A20500B4D646 /* merchantos-export */ = {
+			isa = PBXGroup;
+			children = (
+				F581D65913060F3E0099765A /* LjsStringUtils.h */,
+				F581D65A13060F3E0099765A /* LjsStringUtils.m */,
+				F581D5B61305DE6A0099765A /* merchos-customer-export-notes.rtf */,
+				F581D5661305C6BF0099765A /* LjsObjectExporter.h */,
+				F581D5671305C6BF0099765A /* LjsObjectExporter.m */,
+				F581D4F8130540740099765A /* Reporter.h */,
+				F581D4F9130540740099765A /* Reporter.m */,
+				F53B662E1304A20500B4D646 /* CustomerSample.xls */,
+				F581D4BD1304F2840099765A /* MerchantOSExport.h */,
+				F581D4BE1304F2840099765A /* MerchantOSExport.m */,
+				F581D5691305D13D0099765A /* ProblemPerson.h */,
+				F581D56A1305D13D0099765A /* ProblemPerson.m */,
+			);
+			path = "merchantos-export";
+			sourceTree = "<group>";
+		};
+		F5517CB40B4C2C0000B763F5 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				F5517CB00B4C2BF100B763F5 /* BookViewer.h */,
+				F5517CB10B4C2BF100B763F5 /* BookViewer.m */,
+				F52245450B2CF60C00EEB2A9 /* BooksViewer.h */,
+				F52245460B2CF60C00EEB2A9 /* BooksViewer.m */,
+				F5181EE10B3796C6006AF5A3 /* CloseBookController.h */,
+				F5181EE20B3796C6006AF5A3 /* CloseBookController.m */,
+				F52244100B2CC2D300EEB2A9 /* OpenBookController.h */,
+				F52244110B2CC2D300EEB2A9 /* OpenBookController.m */,
+			);
+			name = Books;
+			sourceTree = "<group>";
+		};
+		F5517CB50B4C2C2500B763F5 /* Invoices */ = {
+			isa = PBXGroup;
+			children = (
+				F59767240B75454D00F98EAF /* CreateInvoice.h */,
+				F59767250B75454D00F98EAF /* CreateInvoice.m */,
+				F57890C10B7FCE4200E938CE /* InvoiceManager.h */,
+				F57890C20B7FCE4200E938CE /* InvoiceManager.m */,
+				F50B70070B7CF9A8008B9FD6 /* PayInvoiceController.h */,
+				F50B70080B7CF9A8008B9FD6 /* PayInvoiceController.m */,
+				F57891110B7FE14400E938CE /* ViewInvoice.h */,
+				F57891120B7FE14400E938CE /* ViewInvoice.m */,
+			);
+			name = Invoices;
+			sourceTree = "<group>";
+		};
+		F56799EB0D29D14B00B4A051 /* ClassDescriptions */ = {
+			isa = PBXGroup;
+			children = (
+				F505FD620D2CBB9D005FE375 /* PersonClassDescription.h */,
+				F505FD630D2CBB9D005FE375 /* PersonClassDescription.m */,
+				F505FD5C0D2CBB3A005FE375 /* CCClassDescription.h */,
+				F505FD5D0D2CBB3A005FE375 /* CCClassDescription.m */,
+				F505FD480D2CBA6E005FE375 /* PCClassDescription.h */,
+				F505FD490D2CBA6E005FE375 /* PCClassDescription.m */,
+				F505FD360D2CB991005FE375 /* MembershipClassDescription.h */,
+				F505FD370D2CB991005FE375 /* MembershipClassDescription.m */,
+				F505FD220D2CB7FC005FE375 /* ProjectClassDescription.h */,
+				F505FD230D2CB7FC005FE375 /* ProjectClassDescription.m */,
+				F505FCEB0D2CB614005FE375 /* BicycleClassDescription.h */,
+				F505FCEC0D2CB614005FE375 /* BicycleClassDescription.m */,
+				F505FCE50D2CB511005FE375 /* ProductClassDescription.h */,
+				F505FCE60D2CB511005FE375 /* ProductClassDescription.m */,
+				F505FCBD0D2CB3CE005FE375 /* PBNClassDescription.h */,
+				F505FCBE0D2CB3CE005FE375 /* PBNClassDescription.m */,
+				F505FCAE0D2C8300005FE375 /* ShopCreditClassDescription.h */,
+				F505FCAF0D2C8300005FE375 /* ShopCreditClassDescription.m */,
+				F505FC9E0D2C8291005FE375 /* ReturnClassDescription.h */,
+				F505FC9F0D2C8291005FE375 /* ReturnClassDescription.m */,
+				F505FC8A0D2C8127005FE375 /* InvoiceClassDescription.h */,
+				F505FC8B0D2C8127005FE375 /* InvoiceClassDescription.m */,
+				F505FC670D2C7FE8005FE375 /* IKDClassDescription.h */,
+				F505FC680D2C7FE8005FE375 /* IKDClassDescription.m */,
+				F505FC560D2C7F24005FE375 /* DonationClassDescription.h */,
+				F505FC570D2C7F24005FE375 /* DonationClassDescription.m */,
+				F505FC460D2C7E80005FE375 /* DOCClassDescription.h */,
+				F505FC470D2C7E80005FE375 /* DOCClassDescription.m */,
+				F505FC370D2C7D06005FE375 /* CompClassDescription.h */,
+				F505FC380D2C7D06005FE375 /* CompClassDescription.m */,
+				F505FC140D2C7B11005FE375 /* CheckClassDescription.h */,
+				F505FC150D2C7B11005FE375 /* CheckClassDescription.m */,
+				F505FB9F0D2C75CB005FE375 /* BookClassDescription.h */,
+				F505FBA00D2C75CB005FE375 /* BookClassDescription.m */,
+				F505FB940D2C6EA3005FE375 /* OWCClassDescription.h */,
+				F505FB950D2C6EA3005FE375 /* OWCClassDescription.m */,
+				F505FB880D2C6E12005FE375 /* OWDClassDescription.h */,
+				F505FB890D2C6E12005FE375 /* OWDClassDescription.m */,
+				F505FB7C0D2C6B4D005FE375 /* OWUClassDescription.h */,
+				F505FB7D0D2C6B4D005FE375 /* OWUClassDescription.m */,
+			);
+			name = ClassDescriptions;
+			sourceTree = "<group>";
+		};
+		F56B86F10A71B32400BF7F1C /* PreferenceController */ = {
+			isa = PBXGroup;
+			children = (
+				F50B70300B7D0D63008B9FD6 /* PreferenceController.h */,
+				F50B70310B7D0D63008B9FD6 /* PreferenceController.m */,
+			);
+			name = PreferenceController;
+			sourceTree = "<group>";
+		};
+		F581D4DD1305403B0099765A /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				F581D4DE1305403B0099765A /* Lumberjack */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		F581D4DE1305403B0099765A /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				F581D4DF1305403B0099765A /* config-for-debug-and-release-block.txt */,
+				F581D4E01305403B0099765A /* DDASLLogger.h */,
+				F581D4E11305403B0099765A /* DDASLLogger.m */,
+				F581D4E21305403B0099765A /* DDFileLogger.h */,
+				F581D4E31305403B0099765A /* DDFileLogger.m */,
+				F581D4E41305403B0099765A /* DDLog.h */,
+				F581D4E51305403B0099765A /* DDLog.m */,
+				F581D4E61305403B0099765A /* DDTTYLogger.h */,
+				F581D4E71305403B0099765A /* DDTTYLogger.m */,
+				F581D4E81305403B0099765A /* LjsDefaultFormatter.h */,
+				F581D4E91305403B0099765A /* LjsDefaultFormatter.m */,
+				F581D4EA1305403B0099765A /* LjsTailingFileManager.h */,
+				F581D4EB1305403B0099765A /* LjsTailingFileManager.m */,
+				F581D4EC1305403B0099765A /* Lumberjack.h */,
+				F581D4ED1305403C0099765A /* main.m-for-cocoa-app.txt */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		F585F4AC0B1A7BE7000BBD75 /* Printing */ = {
+			isa = PBXGroup;
+			children = (
+				F5C42E750B39D32A001D6930 /* BookArchiver.h */,
+				F5C42E760B39D32A001D6930 /* BookArchiver.m */,
+				F50B6F8A0B7CEEF7008B9FD6 /* CashDonationArchiver.h */,
+				F50B6F8B0B7CEEF7008B9FD6 /* CashDonationArchiver.m */,
+				F50FBE260B9227B80055153F /* CompArchiver.h */,
+				F50FBE270B9227B80055153F /* CompArchiver.m */,
+				F50815310B2CAD5E00B95720 /* FormPrinter.h */,
+				F50815320B2CAD5E00B95720 /* FormPrinter.m */,
+				F5A10AA40B51EBE2000A5068 /* InKindDonationArchiver.h */,
+				F5A10AA50B51EBE2000A5068 /* InKindDonationArchiver.m */,
+				F585F4B00B1A7C7B000BBD75 /* InvoiceArchiver.h */,
+				F585F4B10B1A7C7B000BBD75 /* InvoiceArchiver.m */,
+			);
+			name = Printing;
+			sourceTree = "<group>";
+		};
+		F585F4C20B1A820F000BBD75 /* Superclasses */ = {
+			isa = PBXGroup;
+			children = (
+				F51F65EF0B17AE0F002C0A89 /* DictionarySingleton.h */,
+				F51F65F00B17AE0F002C0A89 /* DictionarySingleton.m */,
+				F51F68C20B17E099002C0A89 /* FTSWAbstractSingleton.h */,
+				F51F68C30B17E099002C0A89 /* FTSWAbstractSingleton.m */,
+			);
+			name = Superclasses;
+			sourceTree = "<group>";
+		};
+		F585F4E20B1A84E8000BBD75 /* ExpirationDate */ = {
+			isa = PBXGroup;
+			children = (
+				F585F4C50B1A8269000BBD75 /* ExpirationDateMaker.h */,
+				F585F4C60B1A8269000BBD75 /* ExpirationDateMaker.m */,
+			);
+			name = ExpirationDate;
+			sourceTree = "<group>";
+		};
+		F59C99EC0B86952500B02476 /* Donations */ = {
+			isa = PBXGroup;
+			children = (
+				F5F380290B7B0BE100BFA74B /* AcceptCashDonation.h */,
+				F5F3802A0B7B0BE100BFA74B /* AcceptCashDonation.m */,
+				F5465B150B51B20800E51A29 /* AcceptInKindDonation.h */,
+				F5465B160B51B20800E51A29 /* AcceptInKindDonation.m */,
+				F59C9A910B86BE6E00B02476 /* CashDonationManager.h */,
+				F59C9A920B86BE6E00B02476 /* CashDonationManager.m */,
+				F59C9A660B86B26900B02476 /* InKindDonationManager.h */,
+				F59C9A670B86B26900B02476 /* InKindDonationManager.m */,
+				F59C9A880B86B99A00B02476 /* ViewCashDonation.h */,
+				F59C9A890B86B99A00B02476 /* ViewCashDonation.m */,
+				F59C9A550B86A94900B02476 /* ViewInKindDonation.h */,
+				F59C9A560B86A94900B02476 /* ViewInKindDonation.m */,
+			);
+			name = Donations;
+			sourceTree = "<group>";
+		};
+		F59C99ED0B8695C600B02476 /* ComplimentaryTransactions */ = {
+			isa = PBXGroup;
+			children = (
+				F50FBEBA0B9242B90055153F /* CompManager.h */,
+				F50FBEBB0B9242B90055153F /* CompManager.m */,
+				F50FBEC60B9245BD0055153F /* CompViewer.h */,
+				F50FBEC70B9245BD0055153F /* CompViewer.m */,
+				F50FBDD00B921A200055153F /* CreateAComp.h */,
+				F50FBDD10B921A200055153F /* CreateAComp.m */,
+			);
+			name = ComplimentaryTransactions;
+			sourceTree = "<group>";
+		};
+		F59C99EE0B8695ED00B02476 /* Returns */ = {
+			isa = PBXGroup;
+			children = (
+				F58DAD100B5092B9008A9F24 /* ReturnHandler.h */,
+				F58DAD110B5092B9008A9F24 /* ReturnHandler.m */,
+				F58DAEBE0B517A11008A9F24 /* ReturnManager.h */,
+				F58DAEBF0B517A11008A9F24 /* ReturnManager.m */,
+			);
+			name = Returns;
+			sourceTree = "<group>";
+		};
+		F59C99EF0B86961400B02476 /* ShopCredit */ = {
+			isa = PBXGroup;
+			children = (
+				F59B32DA0B64038300CF82D3 /* CreateCredit.h */,
+				F59B32DB0B64038300CF82D3 /* CreateCredit.m */,
+				F5F02B4A0B4D909200D7F31F /* CreditManager.h */,
+				F5F02B4B0B4D909200D7F31F /* CreditManager.m */,
+			);
+			name = ShopCredit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* BicycleKitchenPOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BicycleKitchenPOS" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BicycleKitchenPOS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = BicycleKitchenPOS;
+			productReference = 8D1107320486CEB800E47090 /* BicycleKitchenPOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BicycleKitchenPOS" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BicycleKitchenPOS */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* BicycleKitchenPOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				F5A2DC340A462EE9004D0E87 /* comment-lines-template.txt in Resources */,
+				F5A2DC350A462EE9004D0E87 /* comments-scratch.txt in Resources */,
+				F5A2DC5A0A462F25004D0E87 /* preferences.txt in Resources */,
+				F5A2DC5F0A462F41004D0E87 /* no-exit-pos.icns in Resources */,
+				F5A2DC690A463048004D0E87 /* Preferences.nib in Resources */,
+				F591D5CB0A6C150A006F5844 /* ProductManager.nib in Resources */,
+				F5C4FBE70A6D435400E229FA /* ProductInfoWindow.nib in Resources */,
+				F5254EDD0A6FE0080094F53C /* AddCustomer.tiff in Resources */,
+				F5254EDE0A6FE0080094F53C /* CreateProject.tiff in Resources */,
+				F5254EDF0A6FE0080094F53C /* CloseJournal.tiff in Resources */,
+				F5254EE00A6FE0080094F53C /* OpenJournal.tiff in Resources */,
+				F5254EE10A6FE0080094F53C /* UpdateProject.tiff in Resources */,
+				F5254EE20A6FE0080094F53C /* CreateAdjustment.tiff in Resources */,
+				F5254EE30A6FE0080094F53C /* SellSomething.tiff in Resources */,
+				F52553AE0A71A5190094F53C /* CreateCustomer.nib in Resources */,
+				F56B87080A71B84B00BF7F1C /* ProductManagerLogin.nib in Resources */,
+				F56B87340A71C2A800BF7F1C /* PersonInfo.nib in Resources */,
+				F513D35D0A741CEB00D98494 /* CustomerManager.nib in Resources */,
+				F513D4050A7432A100D98494 /* CustomeManagerLogin.nib in Resources */,
+				F50339620A979F4900ECDD30 /* notes.txt in Resources */,
+				F575364B0AD8971B00086B79 /* add-project-notes.txt in Resources */,
+				F57536500AD89EE200086B79 /* CreateProjectWindow.nib in Resources */,
+				F50C51FA0AE34F1E0012541C /* ProjectInfoWindow.nib in Resources */,
+				F5EFA2C40AF3FFFF00533AF2 /* ProjectManager.nib in Resources */,
+				F5EFAD540AFE90BC00533AF2 /* CustomerContactManager.nib in Resources */,
+				F5A549C30B0EB1B200FC4A21 /* Invoice.nib in Resources */,
+				F5A54A020B0EBD1700FC4A21 /* ViewInvoice.nib in Resources */,
+				F52F32380B10FBA40056CB84 /* bugs.txt in Resources */,
+				F51F713C0B1904B6002C0A89 /* DeletePersonPanel.nib in Resources */,
+				F585F4100B1A505E000BBD75 /* InvoiceManager.nib in Resources */,
+				F5E0161A0B1D346C00AFE647 /* PayInvoice.nib in Resources */,
+				F5071D390B1FEB2C00F39669 /* BugReportWindow.nib in Resources */,
+				F5DCC5410B2356B500B42D60 /* empty-image.tif in Resources */,
+				F5DCC54A0B235A4200B42D60 /* bug.tiff in Resources */,
+				F522440D0B2CC28400EEB2A9 /* OpenBook.nib in Resources */,
+				F52245310B2CEB6E00EEB2A9 /* BooksViewer.nib in Resources */,
+				F52245ED0B2D110D00EEB2A9 /* BookDetails.nib in Resources */,
+				F5181ED90B3794B6006AF5A3 /* CloseBook.nib in Resources */,
+				F5F02B3C0B4D884500D7F31F /* CreditManager.nib in Resources */,
+				F5F02D360B4EF6FB00D7F31F /* MembershipManager.nib in Resources */,
+				F5F030370B4FA30100D7F31F /* CompAProduct.nib in Resources */,
+				F556D8CC0B4FB97C003F8A30 /* CompManager.nib in Resources */,
+				F58DACC80B506760008A9F24 /* ReturnHandler.nib in Resources */,
+				F58DAEBB0B51721A008A9F24 /* ReturnManager.nib in Resources */,
+				F5465AE30B519E8900E51A29 /* AcceptInKindDonation.nib in Resources */,
+				F5A10C0D0B52180A000A5068 /* InKindDonationManager.nib in Resources */,
+				F50E206C0B61D2880074B59F /* ClientInformation.nib in Resources */,
+				F59B326A0B63EFA800CF82D3 /* CreateCorrespondence.nib in Resources */,
+				F59B32D70B64021000CF82D3 /* CreateCredit.nib in Resources */,
+				F5F7A8C50B6693D70078BFE1 /* PersonEditor.nib in Resources */,
+				F5F7AA080B66C43B0078BFE1 /* SelectProductsForProject.nib in Resources */,
+				F5F380280B7B085E00BFA74B /* AcceptCashDonation.nib in Resources */,
+				F59C9A4F0B86A17900B02476 /* CashDonationController.nib in Resources */,
+				F59C9A540B86A73C00B02476 /* ViewInKindDonation.nib in Resources */,
+				F59C9A870B86B83D00B02476 /* ViewCashDonation.nib in Resources */,
+				F5CA26420B8BC29300F8ADEE /* PersonSelector.nib in Resources */,
+				F50FBB960B90FBC10055153F /* ProjectSelector.nib in Resources */,
+				F50FBEB60B923F3E0055153F /* CompViewer.nib in Resources */,
+				F50F28360D2872C5002F1C12 /* DataExportManager.nib in Resources */,
+				F581D4EE1305403C0099765A /* config-for-debug-and-release-block.txt in Resources */,
+				F581D4F51305403C0099765A /* main.m-for-cocoa-app.txt in Resources */,
+				F581D5B71305DE6A0099765A /* merchos-customer-export-notes.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				F5A2DC270A462ED0004D0E87 /* AppController.m in Sources */,
+				F5A2DC280A462ED0004D0E87 /* Bicycle.m in Sources */,
+				F5A2DC290A462ED0004D0E87 /* Check.m in Sources */,
+				F5A2DC370A462EE9004D0E87 /* CustomerContact.m in Sources */,
+				F5A2DC420A462F15004D0E87 /* Membership.m in Sources */,
+				F5A2DC430A462F15004D0E87 /* MembershipInformation.m in Sources */,
+				F5A2DC550A462F25004D0E87 /* ObjectWithComment.m in Sources */,
+				F5A2DC560A462F25004D0E87 /* ObjectWithDate.m in Sources */,
+				F5A2DC570A462F25004D0E87 /* ObjectWithUid.m in Sources */,
+				F5A2DC5B0A462F25004D0E87 /* Product.m in Sources */,
+				F5A2DC5C0A462F25004D0E87 /* Project.m in Sources */,
+				F5A2DC5D0A462F25004D0E87 /* UidGenerator.m in Sources */,
+				F591D5D80A6C1B0D006F5844 /* ProductController.m in Sources */,
+				F591D5DD0A6C1DE2006F5844 /* Products.m in Sources */,
+				F5254E210A6F452A0094F53C /* People.m in Sources */,
+				F525527E0A718C440094F53C /* CreateCustomerController.m in Sources */,
+				F525546B0A71B1770094F53C /* ProductManagerLoginController.m in Sources */,
+				F56B87770A72BA7C00BF7F1C /* Projects.m in Sources */,
+				F513D1D90A7369BE00D98494 /* Contacts.m in Sources */,
+				F513D2980A740FA600D98494 /* Invoices.m in Sources */,
+				F513D3650A74202E00D98494 /* PeopleController.m in Sources */,
+				F513D40C0A7432EC00D98494 /* PeopleManagerLoginController.m in Sources */,
+				F575363F0AD896C800086B79 /* ProgressiveWindowController.m in Sources */,
+				F50C80F00AD96F7500828B09 /* CreateProjectController.m in Sources */,
+				F50C51FF0AE34FED0012541C /* ProjectController.m in Sources */,
+				F5EFA2DF0AF40B7900533AF2 /* ProjectInformationController.m in Sources */,
+				F5EFAD590AFE90F500533AF2 /* CustomerContactController.m in Sources */,
+				F52F2C350B0EC3640056CB84 /* ProductBrowserNode.m in Sources */,
+				F52F2C4E0B0EC6AA0056CB84 /* ProductCategory.m in Sources */,
+				F52F2D640B0FC3900056CB84 /* ProductCategories.m in Sources */,
+				F52F2FD10B10140F0056CB84 /* ProductCategoriesDataSource.m in Sources */,
+				F52F34A60B113AFC0056CB84 /* BasicWindowController.m in Sources */,
+				F51F65F10B17AE0F002C0A89 /* DictionarySingleton.m in Sources */,
+				F51F66050B17B165002C0A89 /* Credits.m in Sources */,
+				F51F68C40B17E099002C0A89 /* FTSWAbstractSingleton.m in Sources */,
+				F51F71410B1904D9002C0A89 /* DeletePersonController.m in Sources */,
+				F51F715C0B190EE6002C0A89 /* Comments.m in Sources */,
+				F585F4B20B1A7C7B000BBD75 /* InvoiceArchiver.m in Sources */,
+				F585F4C70B1A8269000BBD75 /* ExpirationDateMaker.m in Sources */,
+				F5E014610B1C381700AFE647 /* Memberships.m in Sources */,
+				F5DCC50F0B222EA200B42D60 /* BugReportController.m in Sources */,
+				F50812850B2BDD3300B95720 /* DebitsAndCredits.m in Sources */,
+				F50812D70B2BE8A000B95720 /* Checks.m in Sources */,
+				F508134F0B2BFBA100B95720 /* Donations.m in Sources */,
+				F50814240B2C095300B95720 /* Books.m in Sources */,
+				F50815330B2CAD5E00B95720 /* FormPrinter.m in Sources */,
+				F52244120B2CC2D300EEB2A9 /* OpenBookController.m in Sources */,
+				F52245470B2CF60C00EEB2A9 /* BooksViewer.m in Sources */,
+				F5181EE30B3796C6006AF5A3 /* CloseBookController.m in Sources */,
+				F5181F0C0B38AA3D006AF5A3 /* CurrentJournal.m in Sources */,
+				F5C42E770B39D32A001D6930 /* BookArchiver.m in Sources */,
+				F5517CB20B4C2BF100B763F5 /* BookViewer.m in Sources */,
+				F5F02B4C0B4D909200D7F31F /* CreditManager.m in Sources */,
+				F5F02D3D0B4EFEF900D7F31F /* MembershipManager.m in Sources */,
+				F5F0302C0B4FA17B00D7F31F /* Comps.m in Sources */,
+				F58DACD30B507A43008A9F24 /* Returns.m in Sources */,
+				F58DACE00B507AA3008A9F24 /* Return.m in Sources */,
+				F58DAD120B5092B9008A9F24 /* ReturnHandler.m in Sources */,
+				F58DAEC00B517A11008A9F24 /* ReturnManager.m in Sources */,
+				F5465B170B51B20800E51A29 /* AcceptInKindDonation.m in Sources */,
+				F5A1093F0B51C137000A5068 /* InKindDonationItem.m in Sources */,
+				F5A10AA60B51EBE2000A5068 /* InKindDonationArchiver.m in Sources */,
+				F5A10C960B5220E6000A5068 /* InKindDonations.m in Sources */,
+				F50E20730B62D52A0074B59F /* ClientInfoManager.m in Sources */,
+				F59B326F0B63F1B400CF82D3 /* CreateCorrespondence.m in Sources */,
+				F59B32DC0B64038300CF82D3 /* CreateCredit.m in Sources */,
+				F5F7A83F0B6686900078BFE1 /* PersonEditor.m in Sources */,
+				F5F7AA0F0B66C6B40078BFE1 /* ProductSelectorForProject.m in Sources */,
+				F59767260B75454D00F98EAF /* CreateInvoice.m in Sources */,
+				F5F3802B0B7B0BE100BFA74B /* AcceptCashDonation.m in Sources */,
+				F5F3807D0B7BAE7200BFA74B /* Person.m in Sources */,
+				F5F3809C0B7BD86D00BFA74B /* Donation.m in Sources */,
+				F5F380B10B7BE25500BFA74B /* InKindDonation.m in Sources */,
+				F50B6F8C0B7CEEF7008B9FD6 /* CashDonationArchiver.m in Sources */,
+				F50B70090B7CF9A8008B9FD6 /* PayInvoiceController.m in Sources */,
+				F50B70320B7D0D63008B9FD6 /* PreferenceController.m in Sources */,
+				F50B73260B7D799C008B9FD6 /* Invoice.m in Sources */,
+				F50B73980B7D89A7008B9FD6 /* Book.m in Sources */,
+				F50B742B0B7D911A008B9FD6 /* DebitOrCredit.m in Sources */,
+				F50B74320B7D939F008B9FD6 /* ShopCredit.m in Sources */,
+				F57890C30B7FCE4200E938CE /* InvoiceManager.m in Sources */,
+				F57891130B7FE14400E938CE /* ViewInvoice.m in Sources */,
+				F59C9A570B86A94900B02476 /* ViewInKindDonation.m in Sources */,
+				F59C9A680B86B26900B02476 /* InKindDonationManager.m in Sources */,
+				F59C9A8A0B86B99A00B02476 /* ViewCashDonation.m in Sources */,
+				F59C9A930B86BE6E00B02476 /* CashDonationManager.m in Sources */,
+				F5CA264F0B8BC81700F8ADEE /* PersonSelector.m in Sources */,
+				F50FBB9F0B9102A20055153F /* ProjectSelector.m in Sources */,
+				F50FBD6A0B9169C40055153F /* Comp.m in Sources */,
+				F50FBDD20B921A200055153F /* CreateAComp.m in Sources */,
+				F50FBE280B9227B80055153F /* CompArchiver.m in Sources */,
+				F50FBEBC0B9242B90055153F /* CompManager.m in Sources */,
+				F50FBEC80B9245BD0055153F /* CompViewer.m in Sources */,
+				F505FB7E0D2C6B4D005FE375 /* OWUClassDescription.m in Sources */,
+				F505FB8A0D2C6E12005FE375 /* OWDClassDescription.m in Sources */,
+				F505FB960D2C6EA3005FE375 /* OWCClassDescription.m in Sources */,
+				F505FBA10D2C75CB005FE375 /* BookClassDescription.m in Sources */,
+				F505FC160D2C7B11005FE375 /* CheckClassDescription.m in Sources */,
+				F505FC390D2C7D06005FE375 /* CompClassDescription.m in Sources */,
+				F505FC480D2C7E80005FE375 /* DOCClassDescription.m in Sources */,
+				F505FC580D2C7F24005FE375 /* DonationClassDescription.m in Sources */,
+				F505FC690D2C7FE8005FE375 /* IKDClassDescription.m in Sources */,
+				F505FC8C0D2C8127005FE375 /* InvoiceClassDescription.m in Sources */,
+				F505FCA00D2C8291005FE375 /* ReturnClassDescription.m in Sources */,
+				F505FCB00D2C8301005FE375 /* ShopCreditClassDescription.m in Sources */,
+				F505FCBF0D2CB3CE005FE375 /* PBNClassDescription.m in Sources */,
+				F505FCE70D2CB511005FE375 /* ProductClassDescription.m in Sources */,
+				F505FCED0D2CB614005FE375 /* BicycleClassDescription.m in Sources */,
+				F505FD240D2CB7FC005FE375 /* ProjectClassDescription.m in Sources */,
+				F505FD380D2CB991005FE375 /* MembershipClassDescription.m in Sources */,
+				F505FD4A0D2CBA6E005FE375 /* PCClassDescription.m in Sources */,
+				F505FD5E0D2CBB3A005FE375 /* CCClassDescription.m in Sources */,
+				F505FD640D2CBB9D005FE375 /* PersonClassDescription.m in Sources */,
+				F581D4BF1304F2840099765A /* MerchantOSExport.m in Sources */,
+				F581D4EF1305403C0099765A /* DDASLLogger.m in Sources */,
+				F581D4F01305403C0099765A /* DDFileLogger.m in Sources */,
+				F581D4F11305403C0099765A /* DDLog.m in Sources */,
+				F581D4F21305403C0099765A /* DDTTYLogger.m in Sources */,
+				F581D4F31305403C0099765A /* LjsDefaultFormatter.m in Sources */,
+				F581D4F41305403C0099765A /* LjsTailingFileManager.m in Sources */,
+				F581D4FA130540740099765A /* Reporter.m in Sources */,
+				F581D5681305C6BF0099765A /* LjsObjectExporter.m in Sources */,
+				F581D56B1305D13D0099765A /* ProblemPerson.m in Sources */,
+				F581D65B13060F3E0099765A /* LjsStringUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		F5071D370B1FEB2C00F39669 /* BugReportWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5071D380B1FEB2C00F39669 /* English */,
+			);
+			name = BugReportWindow.nib;
+			sourceTree = "<group>";
+		};
+		F50C51F80AE34F1E0012541C /* ProjectInfoWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50C51F90AE34F1E0012541C /* English */,
+			);
+			name = ProjectInfoWindow.nib;
+			sourceTree = "<group>";
+		};
+		F50E206A0B61D2880074B59F /* ClientInformation.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50E206B0B61D2880074B59F /* English */,
+			);
+			name = ClientInformation.nib;
+			sourceTree = "<group>";
+		};
+		F50F28340D2872C5002F1C12 /* DataExportManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50F28350D2872C5002F1C12 /* English */,
+			);
+			name = DataExportManager.nib;
+			sourceTree = "<group>";
+		};
+		F50FBB940B90FBC10055153F /* ProjectSelector.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50FBB950B90FBC10055153F /* English */,
+			);
+			name = ProjectSelector.nib;
+			sourceTree = "<group>";
+		};
+		F50FBEB40B923F3E0055153F /* CompViewer.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50FBEB50B923F3E0055153F /* English */,
+			);
+			name = CompViewer.nib;
+			sourceTree = "<group>";
+		};
+		F513D35B0A741CEB00D98494 /* CustomerManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F513D35C0A741CEB00D98494 /* English */,
+			);
+			name = CustomerManager.nib;
+			sourceTree = "<group>";
+		};
+		F513D4030A7432A100D98494 /* CustomeManagerLogin.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F513D4040A7432A100D98494 /* English */,
+			);
+			name = CustomeManagerLogin.nib;
+			sourceTree = "<group>";
+		};
+		F5181ED70B3794B6006AF5A3 /* CloseBook.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5181ED80B3794B6006AF5A3 /* English */,
+			);
+			name = CloseBook.nib;
+			sourceTree = "<group>";
+		};
+		F51F713A0B1904B6002C0A89 /* DeletePersonPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51F713B0B1904B6002C0A89 /* English */,
+			);
+			name = DeletePersonPanel.nib;
+			sourceTree = "<group>";
+		};
+		F522452F0B2CEB6E00EEB2A9 /* BooksViewer.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52245300B2CEB6E00EEB2A9 /* English */,
+			);
+			name = BooksViewer.nib;
+			sourceTree = "<group>";
+		};
+		F52245EB0B2D110D00EEB2A9 /* BookDetails.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52245EC0B2D110D00EEB2A9 /* English */,
+			);
+			name = BookDetails.nib;
+			sourceTree = "<group>";
+		};
+		F52553AC0A71A5190094F53C /* CreateCustomer.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52553AD0A71A5190094F53C /* English */,
+			);
+			name = CreateCustomer.nib;
+			sourceTree = "<group>";
+		};
+		F5465AE10B519E8900E51A29 /* AcceptInKindDonation.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5465AE20B519E8900E51A29 /* English */,
+			);
+			name = AcceptInKindDonation.nib;
+			sourceTree = "<group>";
+		};
+		F556D8CA0B4FB97C003F8A30 /* CompManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F556D8CB0B4FB97C003F8A30 /* English */,
+			);
+			name = CompManager.nib;
+			sourceTree = "<group>";
+		};
+		F56B87060A71B84B00BF7F1C /* ProductManagerLogin.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56B87070A71B84B00BF7F1C /* English */,
+			);
+			name = ProductManagerLogin.nib;
+			sourceTree = "<group>";
+		};
+		F56B87320A71C2A800BF7F1C /* PersonInfo.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56B87330A71C2A800BF7F1C /* English */,
+			);
+			name = PersonInfo.nib;
+			sourceTree = "<group>";
+		};
+		F575364E0AD89EE200086B79 /* CreateProjectWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F575364F0AD89EE200086B79 /* English */,
+			);
+			name = CreateProjectWindow.nib;
+			sourceTree = "<group>";
+		};
+		F585F40E0B1A505E000BBD75 /* InvoiceManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F585F40F0B1A505E000BBD75 /* English */,
+			);
+			name = InvoiceManager.nib;
+			sourceTree = "<group>";
+		};
+		F58DACC60B506760008A9F24 /* ReturnHandler.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58DACC70B506760008A9F24 /* English */,
+			);
+			name = ReturnHandler.nib;
+			sourceTree = "<group>";
+		};
+		F58DAEB90B51721A008A9F24 /* ReturnManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58DAEBA0B51721A008A9F24 /* English */,
+			);
+			name = ReturnManager.nib;
+			sourceTree = "<group>";
+		};
+		F591D5C90A6C150A006F5844 /* ProductManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F591D5CA0A6C150A006F5844 /* English */,
+			);
+			name = ProductManager.nib;
+			sourceTree = "<group>";
+		};
+		F59B32680B63EFA800CF82D3 /* CreateCorrespondence.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59B32690B63EFA800CF82D3 /* English */,
+			);
+			name = CreateCorrespondence.nib;
+			sourceTree = "<group>";
+		};
+		F59B32D50B64021000CF82D3 /* CreateCredit.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59B32D60B64021000CF82D3 /* English */,
+			);
+			name = CreateCredit.nib;
+			sourceTree = "<group>";
+		};
+		F59C9A4D0B86A17900B02476 /* CashDonationController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59C9A4E0B86A17900B02476 /* English */,
+			);
+			name = CashDonationController.nib;
+			sourceTree = "<group>";
+		};
+		F59C9A520B86A73C00B02476 /* ViewInKindDonation.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59C9A530B86A73C00B02476 /* English */,
+			);
+			name = ViewInKindDonation.nib;
+			sourceTree = "<group>";
+		};
+		F59C9A850B86B83D00B02476 /* ViewCashDonation.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59C9A860B86B83D00B02476 /* English */,
+			);
+			name = ViewCashDonation.nib;
+			sourceTree = "<group>";
+		};
+		F5A10C0B0B52180A000A5068 /* InKindDonationManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A10C0C0B52180A000A5068 /* English */,
+			);
+			name = InKindDonationManager.nib;
+			sourceTree = "<group>";
+		};
+		F5A2DC670A463048004D0E87 /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A2DC680A463048004D0E87 /* English */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		F5A549C10B0EB1B200FC4A21 /* Invoice.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A549C20B0EB1B200FC4A21 /* English */,
+			);
+			name = Invoice.nib;
+			sourceTree = "<group>";
+		};
+		F5A54A000B0EBD1700FC4A21 /* ViewInvoice.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A54A010B0EBD1700FC4A21 /* English */,
+			);
+			name = ViewInvoice.nib;
+			sourceTree = "<group>";
+		};
+		F5C4FBE50A6D435400E229FA /* ProductInfoWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C4FBE60A6D435400E229FA /* English */,
+			);
+			name = ProductInfoWindow.nib;
+			sourceTree = "<group>";
+		};
+		F5CA26400B8BC29300F8ADEE /* PersonSelector.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CA26410B8BC29300F8ADEE /* English */,
+			);
+			name = PersonSelector.nib;
+			sourceTree = "<group>";
+		};
+		F5E016180B1D346C00AFE647 /* PayInvoice.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E016190B1D346C00AFE647 /* English */,
+			);
+			name = PayInvoice.nib;
+			sourceTree = "<group>";
+		};
+		F5EFA2C20AF3FFFF00533AF2 /* ProjectManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5EFA2C30AF3FFFF00533AF2 /* English */,
+			);
+			name = ProjectManager.nib;
+			sourceTree = "<group>";
+		};
+		F5EFAD520AFE90BC00533AF2 /* CustomerContactManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5EFAD530AFE90BC00533AF2 /* English */,
+			);
+			name = CustomerContactManager.nib;
+			sourceTree = "<group>";
+		};
+		F5F02B3A0B4D884500D7F31F /* CreditManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F02B3B0B4D884500D7F31F /* English */,
+			);
+			name = CreditManager.nib;
+			sourceTree = "<group>";
+		};
+		F5F02D340B4EF6FB00D7F31F /* MembershipManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F02D350B4EF6FB00D7F31F /* English */,
+			);
+			name = MembershipManager.nib;
+			sourceTree = "<group>";
+		};
+		F5F030350B4FA30100D7F31F /* CompAProduct.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F030360B4FA30100D7F31F /* English */,
+			);
+			name = CompAProduct.nib;
+			sourceTree = "<group>";
+		};
+		F5F380260B7B085E00BFA74B /* AcceptCashDonation.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F380270B7B085E00BFA74B /* English */,
+			);
+			name = AcceptCashDonation.nib;
+			sourceTree = "<group>";
+		};
+		F5F7A8C30B6693D70078BFE1 /* PersonEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7A8C40B6693D70078BFE1 /* English */,
+			);
+			name = PersonEditor.nib;
+			sourceTree = "<group>";
+		};
+		F5F7AA060B66C43B0078BFE1 /* SelectProductsForProject.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7AA070B66C43B0078BFE1 /* English */,
+			);
+			name = SelectProductsForProject.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = BicycleKitchenPOS;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = BicycleKitchenPOS;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_EXCEPTIONS = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = LOG_CONFIGURATION_DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BicycleKitchenPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BicycleKitchenPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

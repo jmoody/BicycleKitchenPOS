@@ -1,0 +1,71 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                hasSignedWaiverButtonClicked = id; 
+                newButtonClicked = id; 
+                printWaiverButtonClicked = id; 
+                selectButtonClicked = id; 
+                standTimeStepperClicked = id; 
+                startDatePickerClicked = id; 
+            }; 
+            CLASS = CreateProjectController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                clientsArrayController = NSArrayController; 
+                clientsSearchField = NSSearchField; 
+                clientsTableView = NSTableView; 
+                colorTextField = NSTextField; 
+                endDateTextField1 = NSTextField; 
+                endDateTextField2 = NSTextField; 
+                hasSignedWaiver = NSButton; 
+                instructionsTextField = NSTextField; 
+                makeModelColorForm = NSForm; 
+                makeModelTextField = NSTextField; 
+                newButton = NSButton; 
+                noteTextField = NSTextField; 
+                noteTextView = NSTextView; 
+                personHasNotSignedTextField = NSTextField; 
+                personNameTextField = NSTextField; 
+                printWaiverButton = NSButton; 
+                quoteTextField1 = NSTextField; 
+                quoteTextField2 = NSTextField; 
+                selectedClientTextField1 = NSTextField; 
+                selectedClientTextField2 = NSTextField; 
+                selectedClientTextField3 = NSTextField; 
+                standTimeStepper = NSStepper; 
+                standTimeTextField = NSTextField; 
+                startDatePicker = NSDatePicker; 
+                startDateTextField = NSTextField; 
+                typeComboBox = NSComboBox; 
+                typeTextField = NSTextField; 
+            }; 
+            SUPERCLASS = ProgressiveWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {pwcBackButtonClicked = id; pwcNextButtonClicked = id; showWindow = id; }; 
+            CLASS = ProgressiveWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                pwcBackButton = NSButton; 
+                pwcNextButton = NSButton; 
+                pwcStepTextField = NSTextField; 
+                pwcTabView = NSTabView; 
+                pwcTitleTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,55 @@
+
+
+
+Comments/Contacts.
+
+Why would we contact a customer?
+
+ProjectComment : PosComment
+project overdue
+problem with project
+
+special order in
+confirm appointment
+reply to phone message/question
+reply to email message/question
+check bounced
+membership renewal
+
+
+CustomerContacts are objects with person and object with Comments:
+
+PosComment : ObjectWithComment
+
+
+ObjectWithPerson
+personUid
+
+what objects have persons:
+
+CustomerContact
+ProjectContact
+Project
+Invoice
+
+// save this for open customer windows
+- (IBAction)showCustomerInfoWindow:(id)sender {
+// if we ever want to be able to double click on the products in the table view
+//  NSIndexSet *productIndexSet = [productsTableView selectedRowIndexes];
+//  if ([productIndexSet count] != 0) {
+//    unsigned index;
+//    for (index = [productIndexSet firstIndex];
+//         index != NSNotFound; index = [productIndexSet indexGreaterThanIndex: index])  {
+//      Product *selectedProduct = [productsInMainWindow objectAtIndex:index];
+//      ProductInfoWindowController *piwc;
+//      // Look to see if we already have an open product window for this product
+//      if ((piwc = [openProductWindows objectForKey:[selectedProduct uid]]) == nil) {
+//        piwc = [[ProductInfoWindowController alloc] initWithProduct:selectedProduct];
+//        // add this new instance to openProductWindows
+//        [openProductWindows setObject:piwc forKey:[selectedProduct uid]];
+//      }
+//      
+//      [piwc showWindow:self];      
+//    }
+//  }
+}

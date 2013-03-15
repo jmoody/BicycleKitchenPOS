@@ -1,0 +1,51 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; globalStandTimeStepperClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                globalStandTimeStepper = NSStepper; 
+                globalStandTimeTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {
+                addInvoiceCancelButtonClicked = id; 
+                addInvoiceSelectButtonClicked = id; 
+                cancelSelectProjectButtonClicked = id; 
+                handleAddInvoiceToProjectClicked = id; 
+                handleInvoiceProjectClicked = id; 
+                invoiceCancelButtonClicked = id; 
+                invoiceNewButtonClicked = id; 
+                invoiceSelectButtonClicked = id; 
+                newProjectButtonClicked = id; 
+                showProjectInfoWindow = id; 
+                viewMatrixClicked = id; 
+            }; 
+            CLASS = ProjectController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addInvoiceCancelButton = NSButton; 
+                addInvoiceSelectButton = NSButton; 
+                cancelSelectProjectButton = NSButton; 
+                deleteProjectButton = NSButton; 
+                invoiceCancelButton = NSButton; 
+                invoiceNewButton = NSButton; 
+                invoiceSelectButton = NSButton; 
+                newProjectButton = NSButton; 
+                projectSearchField = NSSearchField; 
+                projectsArrayController = NSArrayController; 
+                projectsTableView = NSTableView; 
+                selectProjectButton = NSButton; 
+                viewMatrix = NSMatrix; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

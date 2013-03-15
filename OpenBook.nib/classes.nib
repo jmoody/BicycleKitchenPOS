@@ -1,0 +1,35 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; globalStandTimeStepperClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                globalStandTimeStepper = NSStepper; 
+                globalStandTimeTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                doneButtonClicked = id; 
+                haveCountedChangeButtonClicked = id; 
+                openingStepperClicked = id; 
+            }; 
+            CLASS = OpenBookController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                doneButton = NSButton; 
+                haveCountedChangeButton = NSButton; 
+                openingStepper = NSStepper; 
+                openingTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

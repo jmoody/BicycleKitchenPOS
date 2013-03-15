@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MembershipManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                membersArrayController = NSArrayController; 
+                membersTableView = NSTableView; 
+                membershipSearchField = NSSearchField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                closeWindowButtonClicked = id; 
+                deleteBookButtonClicked = id; 
+                selectItemButtonClicked = id; 
+                viewCurrentBookButtonClicked = id; 
+            }; 
+            CLASS = BooksViewer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                booksArrayController = NSArrayController; 
+                booksSearchField = NSSearchField; 
+                booksTableView = NSTableView; 
+                closeWindowButton = NSButton; 
+                deleteBookButton = NSButton; 
+                selectItemButton = NSButton; 
+                viewCurrentBookButton = NSButton; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

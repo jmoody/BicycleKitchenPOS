@@ -1,0 +1,66 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {pwcBackButtonClicked = id; pwcNextButtonClicked = id; showWindow = id; }; 
+            CLASS = ProgressiveWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                pwcBackButton = NSButton; 
+                pwcNextButton = NSButton; 
+                pwcStepTextField = NSTextField; 
+                pwcTabView = NSTabView; 
+                pwcTitleTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                deleteButtonClicked = id; 
+                handleInvoicesClicked = id; 
+                handleProductsClicked = id; 
+                handleReturnedClicked = id; 
+                makeCreditButtonClicked = id; 
+                quantityStepperClicked = id; 
+                transferAllButtonClicked = id; 
+            }; 
+            CLASS = ReturnHandler; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                amountTextField = NSTextField; 
+                cancelButton = NSButton; 
+                cookTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                deleteButton = NSButton; 
+                finalReturnedTableView = NSTableView; 
+                invoiceTextField = NSTextField; 
+                invoicesArrayController = NSArrayController; 
+                invoicesSearchField = NSSearchField; 
+                invoicesTableView = NSTableView; 
+                makeCreditButton = NSButton; 
+                personTextField = NSTextField; 
+                productsArrayController = NSArrayController; 
+                productsSearchField = NSSearchField; 
+                productsTableView = NSTableView; 
+                quantityStepper = NSStepper; 
+                quantityTextField = NSTextField; 
+                reasonTextView = NSTextView; 
+                returnedArrayController = NSArrayController; 
+                returnedTableView = NSTableView; 
+                subjectTextField = NSTextField; 
+                transferAllButton = NSButton; 
+            }; 
+            SUPERCLASS = ProgressiveWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

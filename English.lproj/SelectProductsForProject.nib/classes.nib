@@ -1,0 +1,46 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                deleteButtonClicked = id; 
+                doneButtonClicked = id; 
+                handleItemsClicked = id; 
+                handleProductsClicked = id; 
+                priceStepperClicked = id; 
+                quantityStepperClicked = id; 
+            }; 
+            CLASS = ProductSelectorForProject; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                deleteButton = NSButton; 
+                doneButton = NSButton; 
+                itemsArrayController = NSArrayController; 
+                itemsTableView = NSTableView; 
+                priceStepper = NSStepper; 
+                priceTextField = NSTextField; 
+                productsArrayController = NSArrayController; 
+                productsSearchField = NSSearchField; 
+                productsTableView = NSTableView; 
+                quantityStepper = NSStepper; 
+                quantityTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

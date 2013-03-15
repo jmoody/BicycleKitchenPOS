@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {createCustomerAddButtonClicked = id; createCustomerCancelButtonClicked = id; }; 
+            CLASS = CreateCustomerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                createCustomerAddButton = NSButton; 
+                createCustomerCancelButton = NSButton; 
+                createCustomerEmailTextField = NSTextField; 
+                createCustomerFailedTextField = NSTextField; 
+                createCustomerNameTextField = NSTextField; 
+                createCustomerPhoneTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

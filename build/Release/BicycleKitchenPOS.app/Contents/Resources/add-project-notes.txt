@@ -1,0 +1,27 @@
+steps for adding a project
+
+Modal vs. non-modal.
+modal - always rad, stays with theme
+        but what will i do about creating a new client
+non-modal - can reuse the create customer modal window
+            but this might not link nicely with the 
+            existing code.
+            
+Try: modal in a modal
+
+1. choose client
+   client table view
+   select button 
+   hidden select button
+   search field
+   
+   a. select client
+   b. add/create client
+   
+2. describe project
+   create a bike object
+   
+3. print out waiver
+   if not already signed.
+   
+   

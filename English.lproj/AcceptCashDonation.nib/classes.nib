@@ -1,0 +1,58 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                amountStepperClicked = id; 
+                cancelButtonClicked = id; 
+                clearCashButtonClicked = id; 
+                fiftyButtonClicked = id; 
+                fiveButtonClicked = id; 
+                hundredButtonClicked = id; 
+                printButtonClicked = id; 
+                tenButtonClicked = id; 
+                twentyButtonClicked = id; 
+            }; 
+            CLASS = AcceptCashDonation; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addressTextField = NSTextField; 
+                amountStepper = NSStepper; 
+                amountTextField = NSTextField; 
+                cancelButton = NSButton; 
+                cityTextField = NSTextField; 
+                clearCashButton = NSButton; 
+                companyTextField = NSTextField; 
+                cookTextField = NSTextField; 
+                dateTextField = NSTextField; 
+                emailTextField = NSTextField; 
+                fiftyButton = NSButton; 
+                fiveButton = NSButton; 
+                hundredButton = NSButton; 
+                nameTextField = NSTextField; 
+                phoneTextField = NSTextField; 
+                printButton = NSButton; 
+                stateTextField = NSTextField; 
+                tenButton = NSButton; 
+                titleTextField = NSTextField; 
+                twentyButton = NSButton; 
+                zipTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

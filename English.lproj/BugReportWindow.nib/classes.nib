@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {cancelButtonClicked = id; datePickerClicked = id; submitButtonClicked = id; }; 
+            CLASS = BugReportController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bodyTextView = NSTextView; 
+                cancelButton = NSButton; 
+                cookTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                subjectTextField = NSTextField; 
+                submitButton = NSButton; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {closeButtonClicked = id; handleDonationsClicked = id; newButtonClicked = id; }; 
+            CLASS = InKindDonationManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                closeButton = NSButton; 
+                donationsArrayController = NSArrayController; 
+                donationsSearchField = NSSearchField; 
+                donationsTableView = NSTableView; 
+                newButton = NSButton; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

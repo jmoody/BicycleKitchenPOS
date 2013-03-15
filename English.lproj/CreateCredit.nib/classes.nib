@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                createCreditButtonClicked = id; 
+                datePickerClicked = id; 
+            }; 
+            CLASS = CreateCredit; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                amountTextField = NSTextField; 
+                cancelButton = NSButton; 
+                cookTextField = NSTextField; 
+                createCreditButton = NSButton; 
+                datePicker = NSDatePicker; 
+                notesTextView = NSTextView; 
+                reasonTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

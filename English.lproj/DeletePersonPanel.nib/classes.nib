@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                continueButtonClicked = id; 
+                deleteButtonClicked = id; 
+                transferButtonClicked = id; 
+            }; 
+            CLASS = DeletePersonController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                continueButton = NSButton; 
+                deleteButton = NSButton; 
+                titleTextField = NSTextField; 
+                transferButton = NSButton; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

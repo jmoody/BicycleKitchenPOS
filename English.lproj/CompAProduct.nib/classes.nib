@@ -1,0 +1,86 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                compButtonClicked = id; 
+                datePickerClicked = id; 
+                handleProductsClicked = id; 
+                quantityStepperClicked = id; 
+            }; 
+            CLASS = CompAProduct; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                compButton = NSButton; 
+                cookTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                nameTextField = NSTextField; 
+                productsArrayController = NSArrayController; 
+                productsSearchField = NSSearchField; 
+                productsTableView = NSTableView; 
+                quantityStepper = NSStepper; 
+                quantityTextField = NSTextField; 
+                reasonTextView = NSTextView; 
+                subjectTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                compButtonClicked = id; 
+                datePickerClicked = id; 
+                deleteButtonClicked = id; 
+                goBackButtonClicked = id; 
+                handleItemsClicked = id; 
+                handleProductsClicked = id; 
+                priceStepperClicked = id; 
+                quantityStepperClicked = id; 
+                saveAndPrintButtonClicked = id; 
+                saveButtonClicked = id; 
+            }; 
+            CLASS = CreateAComp; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                authorizationPanel = NSPanel; 
+                cancelButton = NSButton; 
+                compButton = NSButton; 
+                cookTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                deleteButton = NSButton; 
+                goBackButton = NSButton; 
+                itemsArrayController = NSArrayController; 
+                itemsTableView = NSTableView; 
+                noteTextView = NSTextView; 
+                personTextField = NSTextField; 
+                priceStepper = NSStepper; 
+                priceTextField = NSTextField; 
+                productsArrayController = NSArrayController; 
+                productsSearchField = NSSearchField; 
+                productsTableView = NSTableView; 
+                quantityStepper = NSStepper; 
+                quantityTextField = NSTextField; 
+                reasonTextField = NSTextField; 
+                saveAndPrintButton = NSButton; 
+                saveButton = NSButton; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

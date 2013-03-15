@@ -1,0 +1,87 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {
+                closePanelButtonClicked = id; 
+                commentDeleteButtonClicked = id; 
+                commentNewButtonClicked = id; 
+                commentSaveButtonClicked = id; 
+                contactCancelButtonClicked = id; 
+                contactDatePickerClicked = id; 
+                contactDeleteButtonClicked = id; 
+                contactNewButtonClicked = id; 
+                contactSaveButtonClicked = id; 
+                creditsDeleteButtonClicked = id; 
+                creditsNewButtonClicked = id; 
+                creditsSaveButtonClicked = id; 
+                displayContactInfo = id; 
+                handleInvoiceClicked = id; 
+                infoAcceptCheckButtonClicked = id; 
+                infoCancelButtonClicked = id; 
+                infoMembershipEndDateDatePicker = id; 
+                infoSaveEditButtonClicked = id; 
+                infoSignedWaiverButtonClicked = id; 
+            }; 
+            CLASS = PersonInfoController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                closePanelButton = NSButton; 
+                contactBodyTextView = NSTextView; 
+                contactCancelButton = NSButton; 
+                contactCookTextField = NSTextField; 
+                contactDatePicker = NSDatePicker; 
+                contactSaveButton = NSButton; 
+                contactSubjectTextField = NSTextField; 
+                contactTypeMatrix = NSMatrix; 
+                contactsControllerInPersonInfoPanel = NSArrayController; 
+                contactsDeleteButton = NSButton; 
+                contactsNewButton = NSButton; 
+                contactsSearchField = NSSearchField; 
+                contactsTableView = NSTableView; 
+                creditsAmountTextField = NSTextField; 
+                creditsBodyTextView = NSTextView; 
+                creditsCommentTextField = NSTextField; 
+                creditsControllerInPersonInfoPanel = NSArrayController; 
+                creditsCookTextField = NSTextField; 
+                creditsDatePicker = NSDatePicker; 
+                creditsDeleteButton = NSButton; 
+                creditsNewButton = NSButton; 
+                creditsRemainingCreditsTextField = NSTextField; 
+                creditsSaveButton = NSButton; 
+                creditsSearchField = NSSearchField; 
+                creditsTableView = NSTableView; 
+                creditsTotalCreditsTextField = NSTextField; 
+                infoAcceptCheckButton = NSButton; 
+                infoBalanceTextField = NSTextField; 
+                infoCancelButton = NSButton; 
+                infoEmailTextField = NSTextField; 
+                infoMemberTypeComboBox = NSComboBox; 
+                infoMemberTypeTextField = NSTextField; 
+                infoMembershipEndDateDatePicker = NSDatePicker; 
+                infoMembershipEndTextField = NSTextField; 
+                infoNameTextField = NSTextField; 
+                infoPhoneTextField = NSTextField; 
+                infoSaveEditButton = NSButton; 
+                infoSignedWaiverButton = NSButton; 
+                invoicesControllerInPersonInfoPanel = NSArrayController; 
+                invoicesTableView = NSTableView; 
+                personInfoTabView = NSTabView; 
+                projectSearchField = NSSearchField; 
+                projectTableView = NSTableView; 
+                projectsControllerInPersonInfoPanel = NSArrayController; 
+                titleTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

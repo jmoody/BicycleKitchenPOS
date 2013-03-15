@@ -1,0 +1,46 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                makeNewProduct = id; 
+                productPriceStepperClicked = id; 
+                productQuantityStepperClicked = id; 
+                saveOrAddProductAction = id; 
+                showProductInfoWindow = id; 
+                switchFlipped = id; 
+            }; 
+            CLASS = ProductController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                categoriesComboBox = NSComboBox; 
+                deleteProductButton = NSButton; 
+                newProductButton = NSButton; 
+                openInfoWindowButton = NSButton; 
+                productActiveSwitch = NSButton; 
+                productCodeTextField = NSTextField; 
+                productInfoPanel = NSPanel; 
+                productNameTextField = NSTextField; 
+                productPriceStepper = NSStepper; 
+                productPriceTextField = NSTextField; 
+                productQuantityStepper = NSStepper; 
+                productQuantityTextField = NSTextField; 
+                productSearchField = NSSearchField; 
+                productTaxableSwitch = NSButton; 
+                productsArrayController = NSArrayController; 
+                productsTableView = NSTableView; 
+                saveOrAddProductButton = NSButton; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

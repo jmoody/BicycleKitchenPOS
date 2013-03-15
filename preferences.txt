@@ -1,0 +1,24 @@
+
+sales tax rate
+
+Membership
+duration of deluxe
+discount on new
+discount on classes
+cost of deluxe
+
+duration of regular
+discount on new
+discount on classes
+cost of regular
+
+Cooks
+
+discount on new
+discount on classes
+
+
+Maybe:
+
+optional database paths.
+

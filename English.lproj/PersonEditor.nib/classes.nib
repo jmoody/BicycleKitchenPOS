@@ -1,0 +1,50 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                checkButtonClicked = id; 
+                closeButtonClicked = id; 
+                datePickerClicked = id; 
+                saveButtonClicked = id; 
+                waiverButtonClicked = id; 
+            }; 
+            CLASS = PersonEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addressStateTextField = NSTextField; 
+                addressTextField = NSTextField; 
+                balanceTextField = NSTextField; 
+                cancelButton = NSButton; 
+                checkButton = NSButton; 
+                cityTextField = NSTextField; 
+                closeButton = NSButton; 
+                companyTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                emailTextField = NSTextField; 
+                membershipComboBox = NSComboBox; 
+                nameTextField = NSTextField; 
+                phoneTextField = NSTextField; 
+                saveButton = NSButton; 
+                waiverButton = NSButton; 
+                zipTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

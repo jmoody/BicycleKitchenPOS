@@ -1,0 +1,90 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {
+                addProductButtonClicked = id; 
+                changeOwnerButtonClicked = id; 
+                closeButtonClicked = id; 
+                contactCancelButtonClicked = id; 
+                contactDatePickerClicked = id; 
+                contactSaveButtonClicked = id; 
+                deleteContactButtonClicked = id; 
+                deleteProductButtonClicked = id; 
+                financialCancelEditButtonClicked = id; 
+                financialSaveEditButtonClicked = id; 
+                handleContactsClicked = id; 
+                handleProductsClicked = id; 
+                lastDatePickerClicked = id; 
+                messageTypeMatrixClicked = id; 
+                newContactButtonClicked = id; 
+                priceStepperClicked = id; 
+                quantityStepperClicked = id; 
+                standTimeStepperClicked = id; 
+                summaryCancelEditButtonClicked = id; 
+                summarySaveEditButtonClicked = id; 
+                todayButtonClicked = id; 
+            }; 
+            CLASS = ProjectInformationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addProductButton = NSButton; 
+                balanceTextField = NSTextField; 
+                bicycleForm = NSForm; 
+                changeOwnerButton = NSButton; 
+                clientInfoTextField = NSTextField; 
+                closeButton = NSButton; 
+                contactCancelButton = NSButton; 
+                contactCookTextField = NSTextField; 
+                contactDatePicker = NSDatePicker; 
+                contactNoteTextView = NSTextView; 
+                contactSaveButton = NSButton; 
+                contactSubjectTextField = NSTextField; 
+                contactsArrayController = NSArrayController; 
+                contactsSearchField = NSSearchField; 
+                contactsTableView = NSTableView; 
+                deleteContactButton = NSButton; 
+                deleteProductButton = NSButton; 
+                endDateTextField = NSTextField; 
+                financialCancelEditButton = NSButton; 
+                financialSaveEditButton = NSButton; 
+                lastDatePicker = NSDatePicker; 
+                messageTypeMatrix = NSMatrix; 
+                nameTextField = NSTextField; 
+                newContactButton = NSButton; 
+                noteTextView = NSTextView; 
+                priceStepper = NSStepper; 
+                priceTextField = NSTextField; 
+                productsArrayController = NSArrayController; 
+                productsTableView = NSTableView; 
+                quantityStepper = NSStepper; 
+                quantityTextField = NSTextField; 
+                quoteTextField = NSTextField; 
+                standTimeStepper = NSStepper; 
+                standTimeTextField = NSTextField; 
+                startDateTextField = NSTextField; 
+                summaryCancelEditButton = NSButton; 
+                summarySaveEditButton = NSButton; 
+                theTabView = NSTabView; 
+                todayButton = NSButton; 
+                totalProductsTextField = NSTextField; 
+                typeComboBox = NSComboBox; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,39 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                closeButtonClicked = id; 
+                datePickerClicked = id; 
+                deleteCreditButtonClicked = id; 
+                handleCreditClicked = id; 
+                saveEditButtonClicked = id; 
+            }; 
+            CLASS = CreditManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                closeButton = NSButton; 
+                cookTextField = NSTextField; 
+                creditAmountTextField = NSTextField; 
+                creditsArrayController = NSArrayController; 
+                creditsSearchField = NSSearchField; 
+                creditsTableView = NSTableView; 
+                datePicker = NSDatePicker; 
+                deleteCreditButton = NSButton; 
+                reasonTextView = NSTextView; 
+                saveEditButton = NSButton; 
+                subjectTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

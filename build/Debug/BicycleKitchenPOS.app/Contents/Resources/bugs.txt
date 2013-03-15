@@ -1,0 +1,42 @@
+
+// pending
+
+// !!!:moody:20061121 
+clicking on the product information window taxble and active buttons
+can put the save edit button in an inconsistent state - meaning you
+could save even if one of the other fields was not valid.
+
+submitted: moody
+
+// !!!:moody:20061119 
+summary page for person info
+
+submitted: ben
+
+
+// resolved
+
+// !!!:moody:20061119 
+editing product in info window does not work correctly - expecially the
+category combo box, values not update in main info window
+or the main window view
+
+submitted: kelly
+resolved: comboBoxes are wonky. implemented a fix.
+
+// !!!:moody:20061119 
+double clicking mouse pad does not "smart click"
+
+submitted: kelly
+resolved: needs to be set in system preferences
+
+// !!!:moody:20061119 
+contacts tab is ambigious
+
+submitted: ben, kelly, monica
+resolved: changed to correspondence history and removed comment tab
+
+
+
+
+

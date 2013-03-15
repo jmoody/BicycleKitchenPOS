@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelEditButtonClicked = id; 
+                closeButtonClicked = id; 
+                datePickerClicked = id; 
+                deleteButtonClicked = id; 
+                handleContactsClicked = id; 
+                newButtonClicked = id; 
+                saveEditButtonClicked = id; 
+                typeMatrixClicked = id; 
+            }; 
+            CLASS = CustomerContactController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bodyTextView = NSTextView; 
+                cancelEditButton = NSButton; 
+                closeButton = NSButton; 
+                contactsArrayController = NSArrayController; 
+                contactsSearchField = NSSearchField; 
+                contactsTableView = NSTableView; 
+                cookTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                deleteButton = NSButton; 
+                newButton = NSButton; 
+                personTextField = NSTextField; 
+                saveEditButton = NSButton; 
+                subjectTextField = NSTextField; 
+                typeMatrix = NSMatrix; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

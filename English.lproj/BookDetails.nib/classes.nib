@@ -1,0 +1,46 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {closeButtonClicked = id; handleInvoiceClicked = id; printButtonClicked = id; }; 
+            CLASS = BookViewer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cardsArrayController = NSArrayController; 
+                cardsInitialsTextField = NSTextField; 
+                cardsTableView = NSTableView; 
+                cashForm = NSForm; 
+                cashTotalTextField = NSTextField; 
+                checksArrayController = NSArrayController; 
+                checksInitialsTextField = NSTextField; 
+                checksTableView = NSTableView; 
+                closeButton = NSButton; 
+                closerInitialsTextField = NSTextField; 
+                creditsArrayController = NSArrayController; 
+                creditsInitialsTextField = NSTextField; 
+                creditsTableView = NSTableView; 
+                fiftiesTextField = NSTextField; 
+                fivesTextField = NSTextField; 
+                hundredsTextField = NSTextField; 
+                invoicesArrayController = NSArrayController; 
+                invoicesTableView = NSTableView; 
+                onesTextField = NSTextField; 
+                printButton = NSButton; 
+                summaryForm = NSForm; 
+                tensTextField = NSTextField; 
+                twentiesTextField = NSTextField; 
+                twosTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

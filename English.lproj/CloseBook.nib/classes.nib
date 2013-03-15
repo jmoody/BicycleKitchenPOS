@@ -1,0 +1,102 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                clientsClearButtonClicked = id; 
+                clientsFiveButtonClicked = id; 
+                clientsStepperClicked = id; 
+                clientsTenButtonClicked = id; 
+                clientsTwentyButtonClicked = id; 
+                fiftiesStepperClicked = id; 
+                fivesStepperClicked = id; 
+                hundredsStepperClicked = id; 
+                numCooksStepperClicked = id; 
+                numHoursStepperClicked = id; 
+                onesStepperClicked = id; 
+                printAndSaveButtonClicked = id; 
+                pulledStartingBalanceButtonClicked = id; 
+                tensStepperClicked = id; 
+                twentiesStepperClicked = id; 
+                twosStepperClicked = id; 
+                verfiedCardsButtonClicked = id; 
+                verfiedChecksButtonClicked = id; 
+                verfiedCreditsButtonClicked = id; 
+            }; 
+            CLASS = CloseBookController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                cardsArrayController = NSArrayController; 
+                cardsTableView = NSTableView; 
+                cashForm = NSForm; 
+                cashTotalsTextField = NSTextField; 
+                checksArrayController = NSArrayController; 
+                checksTableView = NSTableView; 
+                clientsClearButton = NSButton; 
+                clientsFiveButton = NSButton; 
+                clientsStepper = NSStepper; 
+                clientsTenButton = NSButton; 
+                clientsTwentyButton = NSButton; 
+                creditsArrayController = NSArrayController; 
+                creditsTableView = NSTableView; 
+                fiftiesStepper = NSStepper; 
+                fiftiesTextField = NSTextField; 
+                fivesStepper = NSStepper; 
+                fivesTextField = NSTextField; 
+                hundredsStepper = NSStepper; 
+                hundredsTextField = NSTextField; 
+                initialsTextField = NSTextField; 
+                numClientsTextField = NSTextField; 
+                numCooksStepper = NSStepper; 
+                numCooksTextField = NSTextField; 
+                numHoursStepper = NSStepper; 
+                numHoursTextField = NSTextField; 
+                numVolunteerHours = NSTextField; 
+                onesStepper = NSStepper; 
+                onesTextField = NSTextField; 
+                printAndSaveButton = NSButton; 
+                pulledStartingBalanceButton = NSButton; 
+                tensStepper = NSStepper; 
+                tensTextField = NSTextField; 
+                totalsForm = NSForm; 
+                twentiesStepper = NSStepper; 
+                twentiesTextField = NSTextField; 
+                twosStepper = NSStepper; 
+                twosTextField = NSTextField; 
+                verfiedCardsButton = NSButton; 
+                verfiedChecksButton = NSButton; 
+                verfiedCreditsButton = NSButton; 
+            }; 
+            SUPERCLASS = ProgressiveWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {pwcBackButtonClicked = id; pwcNextButtonClicked = id; showWindow = id; }; 
+            CLASS = ProgressiveWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                pwcBackButton = NSButton; 
+                pwcNextButton = NSButton; 
+                pwcStepTextField = NSTextField; 
+                pwcTabView = NSTabView; 
+                pwcTitleTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

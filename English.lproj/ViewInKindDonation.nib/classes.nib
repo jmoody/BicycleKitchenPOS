@@ -1,0 +1,47 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                handleItemsClicked = id; 
+                printFormButtonClicked = id; 
+                thankYouButtonClicked = id; 
+            }; 
+            CLASS = ViewInKindDonation; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addressTextField = NSTextField; 
+                cancelButton = NSButton; 
+                cityTextField = NSTextField; 
+                companyTextField = NSTextField; 
+                cookTextField = NSTextField; 
+                dataTextField = NSTextField; 
+                donorTextField = NSTextField; 
+                emailTextField = NSTextField; 
+                itemsArrayController = NSArrayController; 
+                itemsTableView = NSTableView; 
+                phoneTextField = NSTextField; 
+                printFormButton = NSButton; 
+                stateTextField = NSTextField; 
+                thankYouButton = NSButton; 
+                zipTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

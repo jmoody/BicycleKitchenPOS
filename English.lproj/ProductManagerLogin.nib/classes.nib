@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelLoginAttempt = id; loginButtonPressed = id; }; 
+            CLASS = ProductManagerLoginController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                productManagerCancelButton = NSButton; 
+                productManagerLoginButton = NSButton; 
+                productManagerLoginFailedTextField = NSTextField; 
+                productManagerLoginTextField = NSSecureTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

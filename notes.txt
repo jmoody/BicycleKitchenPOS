@@ -1,0 +1,23 @@
+
+Membership:
+
+We need to nail down membership.  Probably remove the cooks membership
+
+
+
+* one manager window and subclass it 
+* position of windows
+* size of windows
+* just one singleton and subclass it
+* suss NSDate vs. NSCalendarDate
+
+* in invoice controller
+  make sure to do special handling of donations
+  and make the donation object uneditable in the product manager.
+
+
+TODO:
+
+* when deleting a person:
+   remove contacts, invoices, comments, credits, projects
+   archive person

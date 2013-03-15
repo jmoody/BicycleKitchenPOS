@@ -1,0 +1,54 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                cancelButtonClicked = id; 
+                deleteButtonClicked = id; 
+                handleItemsClicked = id; 
+                newButtonClicked = id; 
+                printButtonClicked = id; 
+                saveButtonClicked = id; 
+                showCustomerManager = id; 
+            }; 
+            CLASS = AcceptInKindDonation; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addressTextField = NSTextField; 
+                cancelButton = NSButton; 
+                cityTextField = NSTextField; 
+                companyTextField = NSTextField; 
+                cookTextField = NSTextField; 
+                datePicker = NSDatePicker; 
+                deleteButton = NSButton; 
+                descriptionTextField = NSTextField; 
+                emailTextField = NSTextField; 
+                itemPanel = NSPanel; 
+                itemsArrayController = NSArrayController; 
+                itemsTableView = NSTableView; 
+                nameTextField = NSTextField; 
+                newButton = NSButton; 
+                phoneTextField = NSTextField; 
+                printButton = NSButton; 
+                saveButton = NSButton; 
+                stateTextField = NSTextField; 
+                zipTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

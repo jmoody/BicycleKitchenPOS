@@ -1,0 +1,40 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bugButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancelSelectPersonButtonClicked = id; 
+                closeWindowButtonClicked = id; 
+                deletePersonButtonClicked = id; 
+                handleSelectPerson = id; 
+                newPersonButtonClicked = id; 
+                openPersonInfoWindow = id; 
+                quickSaleButtonClicked = id; 
+                selectPersonButtonClicked = id; 
+            }; 
+            CLASS = PeopleController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelSelectPersonButton = NSButton; 
+                closeWindowButton = NSButton; 
+                deletePersonButton = NSButton; 
+                newPersonButton = NSButton; 
+                openInfoWindowButton = NSButton; 
+                peopleArrayController = NSArrayController; 
+                peopleTableView = NSTableView; 
+                personSearchField = NSSearchField; 
+                quickSaleButton = NSButton; 
+                selectPersonButton = NSButton; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

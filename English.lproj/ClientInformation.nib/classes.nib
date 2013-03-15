@@ -1,0 +1,97 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {bugButtonClicked = id; runNonModal = id; }; 
+            CLASS = BasicWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bugButton = NSButton; 
+                progressIndicator = NSProgressIndicator; 
+                progressMessageTextField = NSTextField; 
+                progressPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                acceptCheckButtonClicked = id; 
+                closeButtonClicked = id; 
+                contactCancelButtonClicked = id; 
+                contactDatePickerClicked = id; 
+                contactSaveButtonClicked = id; 
+                creditCancelButtonClicked = id; 
+                creditDatePickerClicked = id; 
+                creditSaveButtonClicked = id; 
+                deleteContactButtonClicked = id; 
+                deleteCreditButtonClicked = id; 
+                handleContactsClicked = id; 
+                handleCreditsClicked = id; 
+                handleInvoicesClicked = id; 
+                handleProjectsClicked = id; 
+                infoCancelButtonClicked = id; 
+                infoSaveButtonClicked = id; 
+                messageTypeMatrixClicked = id; 
+                newContactButtonClicked = id; 
+                newCreditButtonClicked = id; 
+                waiverButtonClicked = id; 
+            }; 
+            CLASS = ClientInfoManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                acceptCheckButton = NSButton; 
+                addressStateTextField = NSTextField; 
+                addressTextField = NSTextField; 
+                balanceTextField = NSTextField; 
+                cityTextField = NSTextField; 
+                closeButton = NSButton; 
+                companyTextField = NSTextField; 
+                contactCancelButton = NSButton; 
+                contactCookTextField = NSTextField; 
+                contactDatePicker = NSDatePicker; 
+                contactNoteTextView = NSTextView; 
+                contactSaveButton = NSButton; 
+                contactSubjectTextField = NSTextField; 
+                contactsArrayController = NSArrayController; 
+                contactsSearchField = NSSearchField; 
+                contactsTableView = NSTableView; 
+                creditAmountTextField = NSTextField; 
+                creditCancelButton = NSButton; 
+                creditCookTextField = NSTextField; 
+                creditDatePicker = NSDatePicker; 
+                creditNoteTextView = NSTextView; 
+                creditReasonTextField = NSTextField; 
+                creditSaveButton = NSButton; 
+                creditTotalTextField = NSTextField; 
+                creditsArrayController = NSArrayController; 
+                creditsSearchField = NSSearchField; 
+                creditsTableView = NSTableView; 
+                deleteContactButton = NSButton; 
+                deleteCreditButton = NSButton; 
+                emailTextField = NSTextField; 
+                endDate1TextField = NSTextField; 
+                endDate2TextField = NSTextField; 
+                infoCancelButton = NSButton; 
+                infoSaveButton = NSButton; 
+                invoicesArrayController = NSArrayController; 
+                invoicesSearchField = NSSearchField; 
+                invoicesTableView = NSTableView; 
+                membershipTextField = NSTextField; 
+                messageTypeMatrix = NSMatrix; 
+                nameTextField = NSTextField; 
+                newContactButton = NSButton; 
+                newCreditButton = NSButton; 
+                phoneTextField = NSTextField; 
+                projectsArrayController = NSArrayController; 
+                projectsSearchField = NSSearchField; 
+                projectsTableView = NSTableView; 
+                theTabView = NSTabView; 
+                waiverButton = NSButton; 
+                zipTextField = NSTextField; 
+            }; 
+            SUPERCLASS = BasicWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}
